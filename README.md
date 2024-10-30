@@ -17,3 +17,19 @@ This project's goal is to
 * the `scrape_deviations_expansions.py` pulls down the PDFs and saves them with standard names
 
 * The `parse_pdfs.py` script extracts CSVs, using pdfplumber, but these are still very messy with incorrect headings, lack of standarization etc. This script needs to be updated to produce better and more standard CSVs.
+
+
+# Installation
+
+    python -m venv env
+    source env/bin/activate
+    pip install -r requirements.txt
+
+
+# Running
+
+## Extracting tabular data from PDFs
+
+If you don't give paths to PDFs as arguments, it will extract all PDFs in the pdfs directory.
+
+    python -m dev_exp.parse_pdfs
