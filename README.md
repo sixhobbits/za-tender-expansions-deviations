@@ -9,7 +9,7 @@ Some of this data looks a bit suspect. See https://x.com/sajournalist/status/185
 This project's goal is to 
 
 * Scrape the PDFs from that site
-* Extract the data into something more standable 
+* Extract the data into something more standard
 * Analyse it to look for anything weird or interesting
 
 ## Current status
