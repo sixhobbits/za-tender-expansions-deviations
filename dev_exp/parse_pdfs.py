@@ -12,7 +12,6 @@ KEY_MAPPING = {
     "number": "row_number",
     "period_quarter": "quarter",
     "period_quarter_use_dropdown_list": "quarter",
-    "": "",
     "date_received_by_gmc_yyyy_mm_dd": "date_received_by_gmc",
     "rollover_new_use_dropdown_list": "rollover_or_new",
     "entity_department_use_dropdown_list": "entity_department",
@@ -50,7 +49,6 @@ CSV_COLUMNS = [
     "status",
     "supported",
     "rollover_or_new",
-    "",
 ]
 REQUIRED_FIELDS = {
     "quarter",
@@ -59,6 +57,8 @@ REQUIRED_FIELDS = {
     "supplier_service_provider",
     "value_of_deviation",
     "reason_for_deviation",
+    "award_by_ao_aa_date",
+    "contract_start_date",
 }
 
 
@@ -70,19 +70,35 @@ def dump_image_page_settings(page: Page) -> Tuple[Page, Dict[str, Any]]:
     return page, settings
 
 
-def settings_2023_23_q4(page: Page) -> Tuple[Page, Dict[str, Any]]:
+def settings_2024_25_q1(page: Page) -> Tuple[Page, Dict[str, Any]]:
+    settings = {}
+    page = page.crop((0, 81, page.width - 130, page.height))
+    return page, settings
+
+
+def settings_2023_24_q4(page: Page) -> Tuple[Page, Dict[str, Any]]:
     settings = {}
     if page.page_number == 1:
         page = page.crop((0, 95, page.width, page.height))
     return page, settings
 
 
+
 FILE_ARGS = {
-    "pdfs/2023-2024_q1_deviation.pdf": {"end_page": 13, "headers_per_page": False},
+    "pdfs/2024-2025_q1_deviation.pdf": {
+        "skiprows": 0,
+        "page_settings": settings_2024_25_q1,
+    },
+    "pdfs/2023-2024_q1_deviation.pdf": {
+        "end_page": 13,
+        "headers_per_page": False,
+        "skiprows": 2,
+        "page_settings": lambda page: (page, {"snap_y_tolerance": 2}),
+    },
     "pdfs/2022-2023_q4_deviation.pdf": {
         "headers_per_page": False,
         "skiprows": 0,
-        "page_settings": settings_2023_23_q4,
+        "page_settings": settings_2023_24_q4,
     },
     "pdfs/2022-2023_q3_deviation.pdf": {"headers_per_page": False, "skiprows": 2},
 }
@@ -104,6 +120,12 @@ def assert_required_fields(row: Dict[str, str]):
     ), f"Missing fields: {missing_fields}. Available fields: {row.keys()}"
 
 
+def assert_row_number(row: Dict[str, str], last_row_number: int) -> int:
+    row_number = int(row["row_number"])
+    assert row_number == last_row_number + 1, f"Row number not sequential: {row_number}"
+    return row_number
+
+
 def extract_file(pdf_path: Path):
     csv_file_name = f"{pdf_path.stem}.csv"
     with open(csv_file_name, "w") as csvfile:
@@ -114,11 +136,17 @@ def extract_file(pdf_path: Path):
             "headers_per_page": True,
         }
         parse_pdf_args.update(FILE_ARGS.get(str(pdf_path), {}))
+        last_row_number = 0
         for row in parse_pdf_table(pdf_path, **parse_pdf_args):
             row = map_keys(row)
-            assert_required_fields(row)
+
+            if row.get("row_number").lower() == "deviations report":
+                continue
             if not row.get("entity_department") and not row.get("project_description"):
                 continue
+
+            assert_required_fields(row)
+            last_row_number = assert_row_number(row, last_row_number)
 
             writer.writerow(row)
 
