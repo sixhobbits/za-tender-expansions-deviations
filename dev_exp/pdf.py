@@ -65,8 +65,6 @@ def parse_pdf_table(
     pdf = pdfplumber.open(path)
     headers = None
     for page in pdf.pages[start_page_idx:end_page_idx]:
-        if page.page_number % 100 == 0:
-            context.log.info(f"Processing page {page.page_number}...")
 
         if headers_per_page:
             headers = None

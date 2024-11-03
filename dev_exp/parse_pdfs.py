@@ -10,20 +10,26 @@ from .pdf import parse_pdf_table
 # Here, different headings from different files can be mapped to the same column names
 KEY_MAPPING = {
     "number": "row_number",
+    "period_quarter": "quarter",
     "period_quarter_use_dropdown_list": "quarter",
     "": "",
     "date_received_by_gmc_yyyy_mm_dd": "date_received_by_gmc",
+    "rollover_new_use_dropdown_list": "rollover_or_new",
     "entity_department_use_dropdown_list": "entity_department",
     "project_description": "project_description",
     "supplier_service_provider": "supplier_service_provider",
     "value_of_deviation_r": "value_of_deviation",
+    "valueofdeviatio_n_r": "value_of_deviation",
     "reason_for_deviation": "reason_for_deviation",
+    "reason_for_deviation_use_dropdown_list": "reason_for_deviation",
+    "not_supported_supported_conditi_onal_supported_use_dropdown_list": "supported",
     "award_by_ao_aa_date_yyyy_mm_dd": "award_by_ao_aa_date",
+    "award_recommende_d_by_ao_aa_date_yyyy_mm_dd": "award_by_ao_aa_date",
     "contract_start_date_yyyy_mm_dd": "contract_start_date",
     "contract_expiry_yyyy_mm_dd": "contract_expiry",
     "status_use_dropdown_list": "status",
 }
-FIELD_NAMES = [
+CSV_COLUMNS = [
     "row_number",
     "quarter",
     "date_received_by_gmc",
@@ -36,34 +42,78 @@ FIELD_NAMES = [
     "contract_start_date",
     "contract_expiry",
     "status",
+    "award_by_ao_aa_date",
+    "contract_start_date",
+    "contract_expiry",
+    "status",
+    "supported",
+    "rollover_or_new",
     "",
 ]
+REQUIRED_FIELDS = {
+    "quarter",
+    "entity_department",
+    "project_description",
+    "supplier_service_provider",
+    "value_of_deviation",
+    "reason_for_deviation",
+}
+
+
+def dump_image_page_settings(page: Page) -> Tuple[Page, Dict[str, Any]]:
+    settings = {}
+    im = page.to_image()
+    im.debug_tablefinder(settings)
+    im.save(f"page-{page.page_number}.png")
+    return page, settings
+
+
+def settings_2023_23_q4(page: Page) -> Tuple[Page, Dict[str, Any]]:
+    settings = {}
+    if page.page_number == 1:
+        page = page.crop((0, 95, page.width, page.height))
+    return page, settings
+
+
+FILE_ARGS = {
+    "pdfs/2023-2024_q1_deviation.pdf": {"end_page": 13, "headers_per_page": False},
+    "pdfs/2022-2023_q4_deviation.pdf": {
+        "headers_per_page": False,
+        "skiprows": 0,
+        "page_settings": settings_2023_23_q4,
+    },
+}
 
 
 def map_keys(row: Dict[str, str]) -> Dict[str, str]:
-    return {KEY_MAPPING.get(k, k): v for k, v in row.items()}
+    new_row = {}
+    for key, value in row.items():
+        new_key = KEY_MAPPING.get(key, key)
+        assert new_key not in new_row, f"Duplicate key: {new_key}"
+        new_row[new_key] = value
+    return new_row
 
 
-def page_settings(page: Page) -> Tuple[Page, Dict[str, Any]]:
-    settings = {}
-    # im = page.to_image()
-    # im.debug_tablefinder(settings)
-    # im.save(f"page-{page.page_number}.png")
-    return page, settings
+def assert_required_fields(row: Dict[str, str]):
+    missing_fields = REQUIRED_FIELDS - set(row.keys())
+    assert (
+        not missing_fields
+    ), f"Missing fields: {missing_fields}. Available fields: {row.keys()}"
 
 
 def extract_file(pdf_path: Path):
     csv_file_name = f"{pdf_path.stem}.csv"
     with open(csv_file_name, "w") as csvfile:
-        writer = DictWriter(csvfile, fieldnames=FIELD_NAMES)
+        writer = DictWriter(csvfile, fieldnames=CSV_COLUMNS)
         writer.writeheader()
-        for row in parse_pdf_table(
-            pdf_path,
-            skiprows=1,
-            headers_per_page=True,
-            page_settings=page_settings,
-        ):
+        parse_pdf_args = {
+            "skiprows": 1,
+            "headers_per_page": True,
+        }
+        parse_pdf_args.update(FILE_ARGS.get(str(pdf_path), {}))
+        for row in parse_pdf_table(pdf_path, **parse_pdf_args):
             row = map_keys(row)
+            assert_required_fields(row)
             if not row.get("entity_department") and not row.get("project_description"):
                 continue
 
