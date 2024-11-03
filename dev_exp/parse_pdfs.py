@@ -23,8 +23,10 @@ KEY_MAPPING = {
     "reason_for_deviation": "reason_for_deviation",
     "reason_for_deviation_use_dropdown_list": "reason_for_deviation",
     "not_supported_supported_conditi_onal_supported_use_dropdown_list": "supported",
+    "supported_not_supported_noting_use_dropdown_list": "supported",
     "award_by_ao_aa_date_yyyy_mm_dd": "award_by_ao_aa_date",
     "award_recommende_d_by_ao_aa_date_yyyy_mm_dd": "award_by_ao_aa_date",
+    "award_recommended_by_ao_aa_date_yyyy_mm_dd": "award_by_ao_aa_date",
     "contract_start_date_yyyy_mm_dd": "contract_start_date",
     "contract_expiry_yyyy_mm_dd": "contract_expiry",
     "status_use_dropdown_list": "status",
@@ -82,6 +84,7 @@ FILE_ARGS = {
         "skiprows": 0,
         "page_settings": settings_2023_23_q4,
     },
+    "pdfs/2022-2023_q3_deviation.pdf": {"headers_per_page": False, "skiprows": 2},
 }
 
 
