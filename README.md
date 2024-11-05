@@ -22,6 +22,11 @@ This project's goal is to
 
 * Here's one [manually cleaned Google Sheet](https://docs.google.com/spreadsheets/d/10EyyN1siQEyB-KAEvoTIsGCRPI5kRScZ39RT2iadoR8/edit?gid=1446977861#gid=1446977861) with some stats
 
+e.g. it lets us filter by keyword in project and see that correctional services spent R4M more on toothbrushes (in a single quarter) than they planned, contracts awarded to various small businesses.
+
+![screenshot 2024-11-05 at 12 54 35@2x](https://github.com/user-attachments/assets/4334c818-4c57-48e3-b2a4-5de2d9d9cb69)
+
+
 ## Slack conversation
 
 We're on ZATech slack in #tender-data, which started on [this thread](https://zatech.slack.com/archives/CG4HBE0NB/p1730291620057199).
