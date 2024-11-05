@@ -17,3 +17,18 @@ This project's goal is to
 * the `scrape_deviations_expansions.py` pulls down the PDFs and saves them with standard names
 
 * The `parse_pdfs.py` script extracts CSVs, using pdfplumber, but these are still very messy with incorrect headings, lack of standarization etc. This script needs to be updated to produce better and more standard CSVs.
+
+## Manual sheets
+
+* Here's one [manually cleaned Google Sheet](https://docs.google.com/spreadsheets/d/10EyyN1siQEyB-KAEvoTIsGCRPI5kRScZ39RT2iadoR8/edit?gid=1446977861#gid=1446977861) with some stats
+
+## Slack conversation
+
+We're on ZATech slack in #tender-data, which started on [this thread](https://zatech.slack.com/archives/CG4HBE0NB/p1730291620057199).
+
+## Contributing
+
+However you can - looking for help for automated cleaning, manual cleaning, data analysis, etc.
+
+Also interesting to look up the company information on BizPortal and find director information and see if there are links to anything else dodgy.
+
