@@ -32,3 +32,9 @@ However you can - looking for help for automated cleaning, manual cleaning, data
 
 Also interesting to look up the company information on BizPortal and find director information and see if there are links to anything else dodgy.
 
+Feel free to open PRs, open issues, or if you have time and want to contribute but aren't sure how then let me know here or on Slack what your skills are and we can figure it out.
+
+## License
+
+MIT
+
