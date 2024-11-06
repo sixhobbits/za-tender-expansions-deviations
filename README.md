@@ -12,11 +12,21 @@ This project's goal is to
 * Extract the data into something more standard
 * Analyse it to look for anything weird or interesting
 
-## Current status
+# Installation
 
-* the `scrape_deviations_expansions.py` pulls down the PDFs and saves them with standard names
+    python -m venv env
+    source env/bin/activate
+    pip install -r requirements.txt
 
-* The `parse_pdfs.py` script extracts CSVs, using pdfplumber, but these are still very messy with incorrect headings, lack of standarization etc. This script needs to be updated to produce better and more standard CSVs.
+
+# Running
+
+## Extracting tabular data from PDFs
+
+If you don't give paths to PDFs as arguments, it will extract all PDFs in the pdfs directory.
+
+    python -m dev_exp.parse_pdfs
+
 
 ## Manual sheets
 
@@ -25,6 +35,13 @@ This project's goal is to
 e.g. it lets us filter by keyword in project and see that correctional services spent R4M more on toothbrushes (in a single quarter) than they planned, contracts awarded to various small businesses.
 
 ![screenshot 2024-11-05 at 12 54 35@2x](https://github.com/user-attachments/assets/4334c818-4c57-48e3-b2a4-5de2d9d9cb69)
+
+
+## Current status
+
+* the `scrape_deviations_expansions.py` pulls down the PDFs and saves them with standard names
+
+* The `parse_pdfs.py` script extracts CSVs, using pdfplumber, but these are still very messy with incorrect headings, lack of standarization etc. This script needs to be updated to produce better and more standard CSVs.
 
 
 ## Slack conversation
@@ -42,4 +59,3 @@ Feel free to open PRs, open issues, or if you have time and want to contribute b
 ## License
 
 MIT
-
