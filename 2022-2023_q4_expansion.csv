@@ -2,8 +2,8 @@
 Number,,,,,,,,,,,"not supported/not
 supported/Conditional supported
 (Use dropdown List)","Award/recommended by AO/ AA
-(yyyyd /mat me
-/dd)",Contract start date (yyyy/mm/dd),"Contract Expiry Date
+date
+(yyyy/mm/dd)",Contract start date (yyyy/mm/dd),"Contract Expiry Date
 (yyyy/mm/dd)",
 ,Period / Quarter,"Rollover / New
 (Use dropdown List)","Date Received By GMC
@@ -161,8 +161,8 @@ cost of R 2 204181.82 Incl VAT at an escalation of 5% per annum.","R2 204 181,00
 Number,,,,,,,,,,,"not supported/not
 supported/Conditional supported
 (Use dropdown List)","Award/recommended by AO/ AA
-(yyyyd /mat me
-/dd)",Contract start date (yyyy/mm/dd),"Contract Expiry Date
+date
+(yyyy/mm/dd)",Contract start date (yyyy/mm/dd),"Contract Expiry Date
 (yyyy/mm/dd)",
 ,Period / Quarter,"Rollover / New
 (Use dropdown List)","Date Received By GMC
@@ -325,8 +325,8 @@ Network (PTY) LTD",Mobile Telephone Networks (MTN),Business continuity.,"R5 667 
 Number,,,,,,,,,,,"not supported/not
 supported/Conditional supported
 (Use dropdown List)","Award/recommended by AO/ AA
-(yyyyd /mat me
-/dd)",Contract start date (yyyy/mm/dd),"Contract Expiry Date
+date
+(yyyy/mm/dd)",Contract start date (yyyy/mm/dd),"Contract Expiry Date
 (yyyy/mm/dd)",
 ,Period / Quarter,"Rollover / New
 (Use dropdown List)","Date Received By GMC
@@ -538,8 +538,8 @@ November 2022 for the recovery and restoration of ERP System","R147 059,72","R6 
 Number,,,,,,,,,,,"not supported/not
 supported/Conditional supported
 (Use dropdown List)","Award/recommended by AO/ AA
-(yyyyd /mat me
-/dd)",Contract start date (yyyy/mm/dd),"Contract Expiry Date
+date
+(yyyy/mm/dd)",Contract start date (yyyy/mm/dd),"Contract Expiry Date
 (yyyy/mm/dd)",
 ,Period / Quarter,"Rollover / New
 (Use dropdown List)","Date Received By GMC
@@ -710,7 +710,11 @@ conclude the procurement process by 31 October 2022.
 Transnet will not have a Conferencing and Events Management Service
 Provider to manage the following critical TCC Conferencing and Events for
 the next four months","R0,00","R56 100 000,00","R0,00",Noting,2023/01/04,2022/11/01,2023/02/28,
-173,Q4 2022/23,New,2023/02/13,Transnet SOC Ltd,"56A 0T0M R0CE A0NNO6NOD 5N ST 7MT NI 1RFE E, I AN 5TC C 6TA E0T TT N0 I NO G0O O 0INT N6:H 55ET 6E 7O E0 2C R 0 T F0 IOE NO0ND G6RTB 5 NR6TA AA6HC , TC E 5 IRT OP6 E NV0RG 0 AA O0A LL V0R LU I6 YD SE5 II 6 FONA9 OG NN, RD 5OT 6 AHP F0 E E0 PS 0R EO E0I RF CO6 I 5UD OT 7RH D4O IE ,TN O Y5E F6T F S 0H 2F E0E 4E 0R MC 0E V6TX OI5CEI N7S ED T5T SH,I N SFG O R","AMABHOKOBHOKO SECURITY
+173,Q4 2022/23,New,2023/02/13,Transnet SOC Ltd,"NOTIFICATION TO TEDBAC REGARDING THE OF THE EFFECTED
+AMENDMENT TO THE CONTRACT VALUE AND PERIOD ON THE EXISTING
+CONTRACT NO:5600006566, 5600006569, 5600006574, 5600006575,
+5600006571, 5600006572 FOR THE PROVISION OF SECURITY SERVICES FOR
+TRANSNET ENGINEERING NATIONALLY FOR A PERIOD OF 24 MONTHS","AMABHOKOBHOKO SECURITY
 SERVICES (PTY) LTD","The request for increase of 15% for each contract relating to the provision of
 security services for all Regions in TE is due to the contract ending 31
 December 2022.
@@ -720,9 +724,14 @@ response from the market, TE will not be able conclude the award of the new
 contract that must resume on the 1st of January 2023.
 3. Contract amendment should be considered for a flowing business
 continuation for the provision of security services for all Regions in TE.","R5 861 218,92","R39 074 790,80","R0,00",Noting,2023/01/04,2021/01/01,2022/12/31,
-174,Q4 2022/23,New,2023/02/13,Transnet SOC Ltd,"PROVISION OF SECREUGRIITOYN SFEORRV AIC PEESR FIOODR OTRFA 2N2S YNEEATR PSROPERTY, INLAND",IMVUSA TRADING,"Extension of scope to include guarding of vacant Transnet properties as and
+174,Q4 2022/23,New,2023/02/13,Transnet SOC Ltd,"PROVISION OF SECURITY SERVICES FOR TRANSNET PROPERTY, INLAND
+REGION FOR A PERIOD OF 22 YEARS",IMVUSA TRADING,"Extension of scope to include guarding of vacant Transnet properties as and
 when required, and this will mean increasing the number of security guards.","R5 801 503,16","R38 676 687,72","R0,00",Noting,2023/01/04,2021/11/24,2023/09/23,
-175,Q4 2022/23,New,2023/02/13,Transnet SOC Ltd,"56A 0T0M R0CE A0NNO6NOD 5N ST 7MT NI 1RFE E, I AN 5TC C 6TA E0T TT N0 I NO G0O O 0INT N6:H 55ET 6E 7O E0 2C R 0 T F0 IOE NO0ND G6RTB 5 NR6TA AA6HC , TC E 5 IRT OP6 E NV0RG 0 AA O0A LL V0R LU I6 YD SE5 II 6 FONA9 OG NN, RD 5OT 6 AHP F0 E E0 PS 0R EO E0I RF CO6 I 5UD OT 7RH D4O IE ,TN O Y5E F6T F S 0H 2F E0E 4E 0R MC 0E V6TX OI5CEI N7S ED T5T SH,I N SFG O R",BAMOGALE ENTERPRISE (PTY) LTD,"The request for increase of 15% for each contract relating to the provision of
+175,Q4 2022/23,New,2023/02/13,Transnet SOC Ltd,"NOTIFICATION TO TEDBAC REGARDING THE OF THE EFFECTED
+AMENDMENT TO THE CONTRACT VALUE AND PERIOD ON THE EXISTING
+CONTRACT NO:5600006566, 5600006569, 5600006574, 5600006575,
+5600006571, 5600006572 FOR THE PROVISION OF SECURITY SERVICES FOR
+TRANSNET ENGINEERING NATIONALLY FOR A PERIOD OF 24 MONTHS",BAMOGALE ENTERPRISE (PTY) LTD,"The request for increase of 15% for each contract relating to the provision of
 security services for all Regions in TE is due to the contract ending 31
 December 2022.
 2. TE is currently busy with the tender process for the new security contract.
@@ -731,7 +740,11 @@ response from the market, TE will not be able conclude the award of the new
 contract that must resume on the 1st of January 2023.
 3. Contract amendment should be considered for a flowing business
 continuation for the provision of security services for all Regions in TE.","R5 126 235,91","R34 174 906,12","R0,00",Noting,2023/01/04,2021/01/01,2023/12/29,
-176,Q4 2022/23,New,2023/02/13,Transnet SOC Ltd,"56A 0T0M R0CE A0NNO6NOD 5N ST 7MT NI 1RFE E, I AN 5TC C 6TA E0T TT N0 I NO G0O O 0INT N6:H 55ET 6E 7O E0 2C R 0 T F0 IOE NO0ND G6RTB 5 NR6TA AA6HC , TC E 5 IRT OP6 E NV0RG 0 AA O0A LL V0R LU I6 YD SE5 II 6 FONA9 OG NN, RD 5OT 6 AHP F0 E E0 PS 0R EO E0I RF CO6 I 5UD OT 7RH D4O IE ,TN O Y5E F6T F S 0H 2F E0E 4E 0R MC 0E V6TX OI5CEI N7S ED T5T SH,I N SFG O R",BAMOGALE ENTERPRISE (PTY) LTD,"The request for increase of 15% for each contract relating to the provision of
+176,Q4 2022/23,New,2023/02/13,Transnet SOC Ltd,"NOTIFICATION TO TEDBAC REGARDING THE OF THE EFFECTED
+AMENDMENT TO THE CONTRACT VALUE AND PERIOD ON THE EXISTING
+CONTRACT NO:5600006566, 5600006569, 5600006574, 5600006575,
+5600006571, 5600006572 FOR THE PROVISION OF SECURITY SERVICES FOR
+TRANSNET ENGINEERING NATIONALLY FOR A PERIOD OF 24 MONTHS",BAMOGALE ENTERPRISE (PTY) LTD,"The request for increase of 15% for each contract relating to the provision of
 security services for all Regions in TE is due to the contract ending 31
 December 2022.
 2. TE is currently busy with the tender process for the new security contract.
@@ -740,13 +753,23 @@ response from the market, TE will not be able conclude the award of the new
 contract that must resume on the 1st of January 2023.
 3. Contract amendment should be considered for a flowing business
 continuation for the provision of security services for all Regions in TE.","R4 894 361,91","R32 629 079,41","R0,00",Noting,2023/01/04,2021/01/01,2023/12/29,
-177,Q4 2022/23,New,2023/02/13,Transnet SOC Ltd,"FORF OTHRE C PRRERODEVIQTI US AII RONEDN D OS BUF A PC SPO ILSUIE N FRT O EMRR AA PN PAAERGRTEIYMO R DEIN S OTK F O M TNHA RAN ENA E G"" AE YSM E AAENRNDST SWEERHVNIC"" ES",EXPERIAN SOUTH AFRICA,"Tender was issued to the market and the evaluation process has been
+177,Q4 2022/23,New,2023/02/13,Transnet SOC Ltd,"FOR THE PROVISION OF COUNTER PARTY RISK MANAGEMENT SERVICES
+FOR CREDIT AND SUPPLIER MANAGEMENT ON AN ""AS AND WEHN""
+REQUIRED BASIS FOR A PERIOD OF THREE YEARS",EXPERIAN SOUTH AFRICA,"Tender was issued to the market and the evaluation process has been
 completed and the tender need to be non-awarded..","R0,00","R25 500 000,00","R0,00",Noting,2023/01/04,2019/10/01,2022/12/31,
-178,Q4 2022/23,New,2023/02/13,Transnet SOC Ltd,"P RR EO NAOVNI VSDAI OCTINOO NF NSO OTR FR T 9UH 6C E RT IIA SOP SNP BI KMO U AI SSNN ITT NRAM EEGE SEEN STMT DBE O IUN SF IT TL T RDCH IIO CNEN TG E T (NRICNGA B JCI DN OT )E HOE ARR N (I NNEEGPSC, BPMUR) ROFGCO URCR ETE NHM TERE AN LT",LODEMANN HOLDINGS (PTY) LTD,"Extension of the scope of work on the existing contract which impacts the
+178,Q4 2022/23,New,2023/02/13,Transnet SOC Ltd,"PROVISION FOR THE APPOINTMENT OF THE ENGINEERING, PROCUREMENT
+AND CONSTRUCTION MANAGEMENT CONTRACTOR (EPCM) FOR THE
+RENOVATIONOF 96 RISSIK STREET BUILDING IN JOHANNESBURG CENTRAL
+BUSINESS DISTRICT (CBD)",LODEMANN HOLDINGS (PTY) LTD,"Extension of the scope of work on the existing contract which impacts the
 contract price for the duration of the contract.","R2 597 101,06","R23 797 380,00","R0,00",Noting,2023/01/04,2021/10/11,2024/10/10,
-179,Q4 2022/23,New,2023/02/13,Transnet SOC Ltd,"SFEO TRERVX CITCR AEE NSA A TMLINAYGSST EAERNR D W D M IATA HTAI IN NPTT E TAA RHNI IN EODI DN T SCG OTB RT F HUO 3ECN6 T T AMUR NORA E NAND TSS H NGASE NET DN VE WERNAHDTEONOR R B/,SA MTSRA ISUT ECFRTOIURAR L AES D,",PI-LOG SA,"Budget remaining on existing contract. Need to ensure maintenance and
+179,Q4 2022/23,New,2023/02/13,Transnet SOC Ltd,"FOR CREATING AND MAINTAINING THE TRANSNET VENDOR, MATERIALS,
+SERVICES MASTER DATAT AND STRUCTURED GENERATOR/STRUCTURED
+TEXT ANALYSER WITHIN THE TCB ON AN AS AND WHEN BASIS FOR A
+PERIOD OF 36 MONTHS",PI-LOG SA,"Budget remaining on existing contract. Need to ensure maintenance and
 support going forward.","R0,00","R22 000 000,00","R0,00",Noting,2023/01/04,2019/03/11,2023/04/30,
-180,Q4 2022/23,New,2023/02/13,Transnet SOC Ltd,"CLEANING AAWNDA RHDYGEDIE NFP OER RSO EAVR I PSVEIIOCRN IEO SO D FI N36 I NMLOANNTDH, SO.RIGINALLY","(4 SUPPLIERS):
+180,Q4 2022/23,New,2023/02/13,Transnet SOC Ltd,"PROVISION OF
+CLEANING AND HYGIENE SERVICES IN INLAND, ORIGINALLY
+AWARDED FOR A PERIOD 36 MONTHS.","(4 SUPPLIERS):
 DHUNGU ZN
 STHEMBISO & EDIE
 MDITO ENTERPRISE
@@ -761,8 +784,8 @@ market is approached for new systems.","R4 260 031,00","R18 000 000,00","R0,00",
 Number,,,,,,,,,,,"not supported/not
 supported/Conditional supported
 (Use dropdown List)","Award/recommended by AO/ AA
-(yyyyd /mat me
-/dd)",Contract start date (yyyy/mm/dd),"Contract Expiry Date
+date
+(yyyy/mm/dd)",Contract start date (yyyy/mm/dd),"Contract Expiry Date
 (yyyy/mm/dd)",
 ,Period / Quarter,"Rollover / New
 (Use dropdown List)","Date Received By GMC
