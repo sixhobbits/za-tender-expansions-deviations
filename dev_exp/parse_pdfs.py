@@ -9,6 +9,7 @@ from .pdf import parse_pdf_table
 
 # Here, different headings from different files can be mapped to the same column names
 KEY_MAPPING = {
+    "no": "row_number",
     "number": "row_number",
     "period_quarter": "quarter",
     "period_quarter_use_dropdown_list": "quarter",
@@ -70,6 +71,16 @@ def dump_image_page_settings(page: Page) -> Tuple[Page, Dict[str, Any]]:
     return page, settings
 
 
+def settings_2024_25_q2(page: Page) -> Tuple[Page, Dict[str, Any]]:
+    right_border = page.width - 115
+    settings = {"explicit_vertical_lines": [right_border]}
+    # im = page.to_image()
+    # im.draw_vline(right_border, stroke=(0,0,255), stroke_width=1)
+    # im.debug_tablefinder(settings)
+    # im.save(f"page-{page.page_number}.png")
+    return page, settings
+
+
 def settings_2024_25_q1(page: Page) -> Tuple[Page, Dict[str, Any]]:
     settings = {}
     page = page.crop((0, 81, page.width - 130, page.height))
@@ -83,8 +94,12 @@ def settings_2023_24_q4(page: Page) -> Tuple[Page, Dict[str, Any]]:
     return page, settings
 
 
-
 FILE_ARGS = {
+    "pdfs/2024-2025_q2_deviation.pdf": {
+        "headers_per_page": False,
+        "page_settings": settings_2024_25_q2,
+        "end_page": 24,
+    },
     "pdfs/2024-2025_q1_deviation.pdf": {
         "skiprows": 0,
         "page_settings": settings_2024_25_q1,
@@ -139,7 +154,10 @@ def extract_file(pdf_path: Path):
         last_row_number = 0
         for row in parse_pdf_table(pdf_path, **parse_pdf_args):
             row = map_keys(row)
+            # print(row)
 
+            if "signature" in row.get("row_number").lower():
+                break
             if row.get("row_number").lower() == "deviations report":
                 continue
             if not row.get("entity_department") and not row.get("project_description"):
