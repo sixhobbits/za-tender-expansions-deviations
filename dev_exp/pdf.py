@@ -11,14 +11,12 @@ from pdfplumber.page import Page
 from normality import slugify, collapse_spaces
 
 
-
 def header_slug(text: str, preserve_newlines: bool) -> str:
     if preserve_newlines:
         rows = text.split("\n")
         return "\n".join(slugify(row, sep="_") or "" for row in rows)
     else:
         return slugify(collapse_spaces(text) or "", sep="_") or ""
-
 
 
 def parse_pdf_table(
@@ -29,6 +27,7 @@ def parse_pdf_table(
     end_page: Optional[int] = None,
     skiprows: int = 0,
     page_settings: Optional[Callable[[Page], Tuple[Page, Dict[str, Any]]]] = None,
+    expected_rows: Optional[int] = None,
 ) -> Generator[Dict[str, str], None, None]:
     """
     Parse the largest table on each page of a PDF file and yield their rows as dictionaries.
@@ -64,6 +63,7 @@ def parse_pdf_table(
     end_page_idx = end_page if isinstance(end_page, int) else None
     pdf = pdfplumber.open(path)
     headers = None
+    row_count = 0
     for page in pdf.pages[start_page_idx:end_page_idx]:
 
         if headers_per_page:
@@ -77,9 +77,9 @@ def parse_pdf_table(
         rows = page.extract_table(settings)
         if rows is None:
             raise Exception(f"No table found on page {page.page_number} of {path}")
-        for row_num, row in enumerate(rows):
+        for row_num, row in enumerate(rows, start=1):
             if headers is None:
-                if row_num < skiprows:
+                if row_num < skiprows + 1:
                     continue
                 headers = [
                     header_slug(cell or "", preserve_header_newlines) for cell in row
@@ -87,6 +87,12 @@ def parse_pdf_table(
                 continue
             assert len(headers) == len(row), (headers, row)
             yield dict(zip(headers, row))
+            row_count += 1
 
-        page.close()
-    pdf.close()
+            if expected_rows is not None and row_count == expected_rows:
+                return
+
+    if expected_rows is not None:
+        assert (
+            row_count == expected_rows
+        ), f"Expected {expected_rows} rows, got {row_count} rows"

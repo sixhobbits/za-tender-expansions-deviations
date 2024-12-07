@@ -4,6 +4,8 @@ from pathlib import Path
 from sys import argv
 from typing import Any, Dict, List, Tuple
 from pdfplumber.page import Page
+import click
+
 
 from .pdf import parse_pdf_table
 
@@ -71,6 +73,19 @@ def dump_image_page_settings(page: Page) -> Tuple[Page, Dict[str, Any]]:
     return page, settings
 
 
+def crop_top(top: int, dump_image: bool = False):
+    def settings(page: Page) -> Tuple[Page, Dict[str, Any]]:
+        settings = {}
+        page = page.crop((0, top, page.width, page.height))
+        if dump_image:
+            im = page.to_image()
+            im.debug_tablefinder(settings)
+            im.save(f"page-{page.page_number}.png")
+        return page, settings
+
+    return settings
+
+
 def settings_2024_25_q2(page: Page) -> Tuple[Page, Dict[str, Any]]:
     right_border = page.width - 115
     settings = {"explicit_vertical_lines": [right_border]}
@@ -89,8 +104,10 @@ def settings_2024_25_q1(page: Page) -> Tuple[Page, Dict[str, Any]]:
 
 def settings_2023_24_q4(page: Page) -> Tuple[Page, Dict[str, Any]]:
     settings = {}
-    if page.page_number == 1:
-        page = page.crop((0, 95, page.width, page.height))
+    page = page.crop((0, 35, page.width, page.height))
+    im = page.to_image()
+    im.debug_tablefinder(settings)
+    im.save(f"page-{page.page_number}.png")
     return page, settings
 
 
@@ -103,6 +120,10 @@ FILE_ARGS = {
     "pdfs/2024-2025_q1_deviation.pdf": {
         "skiprows": 0,
         "page_settings": settings_2024_25_q1,
+    },
+    "pdfs/2023-2024_q4_deviation.pdf": {
+        "page_settings": crop_top(40),
+        "expected_rows": 1854,
     },
     "pdfs/2023-2024_q1_deviation.pdf": {
         "end_page": 13,
@@ -141,20 +162,20 @@ def assert_row_number(row: Dict[str, str], last_row_number: int) -> int:
     return row_number
 
 
-def extract_file(pdf_path: Path):
+def extract_file(pdf_path: Path, print_rows: bool = False):
     csv_file_name = f"{pdf_path.stem}.csv"
     with open(csv_file_name, "w") as csvfile:
         writer = DictWriter(csvfile, fieldnames=CSV_COLUMNS)
         writer.writeheader()
         parse_pdf_args = {
-            "skiprows": 1,
             "headers_per_page": True,
         }
         parse_pdf_args.update(FILE_ARGS.get(str(pdf_path), {}))
         last_row_number = 0
         for row in parse_pdf_table(pdf_path, **parse_pdf_args):
             row = map_keys(row)
-            # print(row)
+            if print_rows:
+                print(row)
 
             if "signature" in row.get("row_number").lower():
                 break
@@ -169,17 +190,19 @@ def extract_file(pdf_path: Path):
             writer.writerow(row)
 
 
-def main(paths: List[str]):
+@click.command()
+@click.argument("paths", type=str, nargs=-1)
+@click.option("--print-rows", is_flag=True, default=False)
+def main(paths: List[str], print_rows: bool = False):
     pdf_files = [Path(p) for p in paths]
     if not pdf_files:
         pdf_files = [
             Path(f"pdfs/{f}") for f in os.listdir("pdfs") if f.endswith(".pdf")
         ]
     for pdf_file in pdf_files:
-        extract_file(pdf_file)
+        extract_file(pdf_file, print_rows)
     print("Conversion complete.")
 
 
 if __name__ == "__main__":
-    paths = argv[1:]
-    main(paths)
+    main()
