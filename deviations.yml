@@ -1,0 +1,31 @@
+overrides:
+  options:
+    - match: row-number-dio-k80in0gfis-quarter-her-abusekho-uqb1a-2n0zi2m4a-2-5acr-highway-date-received-by-gmc-hit-icora20-2in4a-n0d4a-0-3kzn-fm-n-entity-department-n-cgoomvemrunnmiteyn-tn-coonmgommuan-ic-paotiongno-alan-d-r-inafdoirom-kahtiwone-zsi-y-sstieyamth-ugthcuiksa-c-project-description-apital-cosmo-fm-c-eokm-fpmen-s-iamtipoanc-ft-urnadd-iro-e-ltuerkno-oaf-epaonoirntg-ss-edibeng-westbury-supplier-service-provider-kaboesna-7441-fm-radio-786-wrfm-mfm-eden-heartbeat-value-of-deviation-narm-a-k-w-a-l-a-n-d-o5-3v4e-r0b0e0rg-0-0b-reason-for-deviation-ushbuckridget-h-ien-amkeedkeiulom-skealenycatemd-awziall-nbee-slt-igmweae-t-mthoeu-itnsteen-dveodic-lea-rogfe-csto-amudmieunncitey-jouradio-award-by-ao-aa-date-makhado-m2o0h2o4d-0i-3m-2o2letsi-mphahl-contract-start-date-ale-sekhuk2h0u2n4e-0-3t-u2b2atse-blou-contract-expiry-berg-vhem2b0e2-4a-g0a3n-2a2ng-bojanala-status-mafisa-rmeopdoirrit-e-mdmabatho-m
+      row:
+        row_number: "800"
+        quarter: Q1 2024/25
+        date_received_by_gmc: 2024/04/03
+        entity_department: Government Communication and Information System (GCIS)
+        project_description: check with OCPO
+        supplier_service_provider: 
+        # leka FM, Kouga, Link, Oasis, Radio Kingfisher, Abusekho, Ubanzima, ACR,Highway,Hit,ICORA,KZN FM, Inanda, KZN FM, NN Community, Capital, Cosmo FM, EK FM, Impact Radio, Lekoa, Poort, Sedibeng, Westbury, Kaboesna, 7441 FM, Radio 786, WRFM, MFM, Eden, Heartbeat, Namakwaland,, Pulse, Modiri, Moretele, CUT, KSFM, Whalecoast, Blouberg FM, Ekhephini, Engcobo Radio, Kouga, Link, Ngqushwa, Ubunzima, Abaqulisi Radio, Good, FM, Izwi Lomzansi, NN Community, Radio, Nqubeko FM, Pongola Community Radio, Radio Khwezi, Siyathuthuka, Ukhahlamba FM, Capital, Cosmo FM, Eldos, Lekoa, Pheli, Poort, Sedibeng, West
+        value_of_deviation: 534000
+        reason_for_deviation: The medium selected will best meet the intended largest audience
+        award_by_ao_aa_date: 2024/03/22
+        contract_start_date: 2024/03/22
+        contract_expiry: 2024/03/22
+        status: Reported
+    - match: row-number-ridge8-0-i1nak-quarter-ekelo-kanyamaqza1n-2e0-2l4ig-2w5a-moutse-oice-date-received-by-gmc-of-commu2n0b2i4ty-0-4m-0a3khado-rad-entity-department-io-tguorfv-emrnomleetsnit-cmoomhomdui-n-ivchaetimonb-ea-n-db-ointlfookrwmaa-t-ijoonu-s-ryasdteiom-m-gpchiash-lele-project-description-tubatse-aganangg-bcoisja-n-galoa-v-emrnamfisean-t-rparitoloruit-y-kcgaamtlepnagig-npulse-modiri-more-supplier-service-provider-tele-cut-ksfm-whalecoast-blouberg-fm-ekhephini-engcobo-r-value-of-deviation-adrio-i-s-a-j-o-n-is-i-5k-8h0u-l0u0le0k-a0-0-k-reason-for-deviation-ouga-link-nthgeq-umsehwdiau-m-o-saesliesc-treda-dwioill-kbeinsgt-fmisheeert-tvheu-kinatnein-fdmed-alabrguesestk-hauu-duiebnucnezima-abaq-award-by-ao-aa-date-ulisi-radio-go2o0d2-4n-0e3w-2s-0radio-highw-contract-start-date-ay-fm-hi2t-0f2m4-0iz3w-2i-8lomzansi-contract-expiry-nn-comm2un0i2ty4-r03a-d2io8-nqubeko-status-fm-pongroleap-coortmedmunity-radi
+      row:
+        row_number: "801"
+        quarter: check with OCPO
+        date_received_by_gmc: check with OCPO
+        entity_department: Government Communication and Information System (GCIS)
+        project_description: "GCIS: Government Priority Campaign"
+        supplier_service_provider: 
+        value_of_deviation: check with OCPO
+        reason_for_deviation: check with OCPO
+        award_by_ao_aa_date: check with OCPO
+        contract_start_date: check with OCPO
+        contract_expiry: check with OCPO
+        status: check with OCPO

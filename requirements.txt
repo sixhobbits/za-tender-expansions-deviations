@@ -2,3 +2,4 @@ pathlib==1.0.1
 pdfplumber==0.11.4
 normality==2.5.0
 click==8.1.7
+datapatch==0.1.1

@@ -3,8 +3,10 @@ from csv import DictWriter
 from pathlib import Path
 from sys import argv
 from typing import Any, Dict, List, Tuple
+from normality import slugify, stringify
 from pdfplumber.page import Page
 import click
+from datapatch import Lookup, read_lookups, LookupException
 
 
 from .pdf import parse_pdf_table
@@ -110,8 +112,8 @@ FILE_ARGS = {
         "end_page": 24,
     },
     "pdfs/2024-2025_q1_deviation.pdf": {
-        "skiprows": 0,
         "page_settings": settings_2024_25_q1,
+        "expected_rows": 1316,
     },
     "pdfs/2023-2024_q4_deviation.pdf": {
         "page_settings": crop_top(40),
@@ -166,8 +168,10 @@ def assert_row_number(row: Dict[str, str], last_row_number: int) -> int:
     return row_number
 
 
-def extract_file(pdf_path: Path, print_rows: bool = False):
+def extract_file(pdf_path: Path, lookups: Dict[str, Lookup], print_rows: bool = False):
     csv_file_name = f"{pdf_path.stem}.csv"
+    overrides = lookups["overrides"]
+
     with open(csv_file_name, "w") as csvfile:
         writer = DictWriter(csvfile, fieldnames=CSV_COLUMNS)
         writer.writeheader()
@@ -180,6 +184,11 @@ def extract_file(pdf_path: Path, print_rows: bool = False):
             row = map_keys(row)
             if print_rows:
                 print(row)
+            override_key = slugify(stringify(row))
+            override = overrides.match(override_key)
+            if override is not None:
+                row = override.row
+            print(row)
 
             if "signature" in row.get("row_number").lower():
                 break
@@ -188,8 +197,12 @@ def extract_file(pdf_path: Path, print_rows: bool = False):
             if not row.get("entity_department") and not row.get("project_description"):
                 continue
 
-            assert_required_fields(row)
-            last_row_number = assert_row_number(row, last_row_number)
+            try:
+                assert_required_fields(row)
+                last_row_number = assert_row_number(row, last_row_number)
+            except Exception:
+                print(f"Error in row after {last_row_number}. Override key: {override_key}")
+                raise
 
             writer.writerow(row)
 
@@ -198,13 +211,15 @@ def extract_file(pdf_path: Path, print_rows: bool = False):
 @click.argument("paths", type=str, nargs=-1)
 @click.option("--print-rows", is_flag=True, default=False)
 def main(paths: List[str], print_rows: bool = False):
+    lookups = read_lookups("deviations.yml")
+
     pdf_files = [Path(p) for p in paths]
     if not pdf_files:
         pdf_files = [
             Path(f"pdfs/{f}") for f in os.listdir("pdfs") if f.endswith(".pdf")
         ]
     for pdf_file in pdf_files:
-        extract_file(pdf_file, print_rows)
+        extract_file(pdf_file, lookups, print_rows)
     print("Conversion complete.")
 
 
