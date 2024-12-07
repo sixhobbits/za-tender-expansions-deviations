@@ -73,10 +73,11 @@ def dump_image_page_settings(page: Page) -> Tuple[Page, Dict[str, Any]]:
     return page, settings
 
 
-def crop_top(top: int, dump_image: bool = False):
+def crop_top(top: int, page_1: bool = False, dump_image: bool = False):
     def settings(page: Page) -> Tuple[Page, Dict[str, Any]]:
         settings = {}
-        page = page.crop((0, top, page.width, page.height))
+        if not page_1 or page.page_number == 1:
+            page = page.crop((0, top, page.width, page.height))
         if dump_image:
             im = page.to_image()
             im.debug_tablefinder(settings)
@@ -102,15 +103,6 @@ def settings_2024_25_q1(page: Page) -> Tuple[Page, Dict[str, Any]]:
     return page, settings
 
 
-def settings_2023_24_q4(page: Page) -> Tuple[Page, Dict[str, Any]]:
-    settings = {}
-    page = page.crop((0, 35, page.width, page.height))
-    im = page.to_image()
-    im.debug_tablefinder(settings)
-    im.save(f"page-{page.page_number}.png")
-    return page, settings
-
-
 FILE_ARGS = {
     "pdfs/2024-2025_q2_deviation.pdf": {
         "headers_per_page": False,
@@ -123,7 +115,15 @@ FILE_ARGS = {
     },
     "pdfs/2023-2024_q4_deviation.pdf": {
         "page_settings": crop_top(40),
-        "expected_rows": 1854,
+        "expected_rows": 1855,
+    },
+    "pdfs/2023-2024_q3_deviation.pdf": {
+        "page_settings": crop_top(40),
+        "expected_rows": 749,
+    },
+    "pdfs/2023-2024_q2_deviation.pdf": {
+        "page_settings": crop_top(50),
+        "expected_rows": 675,
     },
     "pdfs/2023-2024_q1_deviation.pdf": {
         "end_page": 13,
@@ -133,10 +133,14 @@ FILE_ARGS = {
     },
     "pdfs/2022-2023_q4_deviation.pdf": {
         "headers_per_page": False,
-        "skiprows": 0,
-        "page_settings": settings_2023_24_q4,
+        "page_settings": crop_top(95, page_1=True),
+        "expected_rows": 537,
     },
-    "pdfs/2022-2023_q3_deviation.pdf": {"headers_per_page": False, "skiprows": 2},
+    "pdfs/2022-2023_q3_deviation.pdf": {
+        "headers_per_page": False, 
+        "page_settings": crop_top(55, page_1=True),
+        "expected_rows": 531,
+    },
 }
 
 

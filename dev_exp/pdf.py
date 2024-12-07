@@ -63,7 +63,7 @@ def parse_pdf_table(
     end_page_idx = end_page if isinstance(end_page, int) else None
     pdf = pdfplumber.open(path)
     headers = None
-    row_count = 0
+    total_row_count = 0
     for page in pdf.pages[start_page_idx:end_page_idx]:
 
         if headers_per_page:
@@ -77,9 +77,9 @@ def parse_pdf_table(
         rows = page.extract_table(settings)
         if rows is None:
             raise Exception(f"No table found on page {page.page_number} of {path}")
-        for row_num, row in enumerate(rows, start=1):
+        for page_row_num, row in enumerate(rows, start=1):
             if headers is None:
-                if row_num < skiprows + 1:
+                if page_row_num < skiprows + 1:
                     continue
                 headers = [
                     header_slug(cell or "", preserve_header_newlines) for cell in row
@@ -87,12 +87,11 @@ def parse_pdf_table(
                 continue
             assert len(headers) == len(row), (headers, row)
             yield dict(zip(headers, row))
-            row_count += 1
-
-            if expected_rows is not None and row_count == expected_rows:
+            total_row_count += 1
+            if expected_rows is not None and total_row_count == expected_rows:
                 return
 
     if expected_rows is not None:
         assert (
-            row_count == expected_rows
-        ), f"Expected {expected_rows} rows, got {row_count} rows"
+            total_row_count == expected_rows
+        ), f"Expected {expected_rows} rows, got {total_row_count} rows"
