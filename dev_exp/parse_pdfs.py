@@ -3,12 +3,17 @@ from csv import DictWriter
 from pathlib import Path
 from sys import argv
 from typing import Any, Dict, List, Tuple
+from normality import slugify, stringify
 from pdfplumber.page import Page
+import click
+from datapatch import Lookup, read_lookups, LookupException
+
 
 from .pdf import parse_pdf_table
 
 # Here, different headings from different files can be mapped to the same column names
 KEY_MAPPING = {
+    "no": "row_number",
     "number": "row_number",
     "period_quarter": "quarter",
     "period_quarter_use_dropdown_list": "quarter",
@@ -70,24 +75,57 @@ def dump_image_page_settings(page: Page) -> Tuple[Page, Dict[str, Any]]:
     return page, settings
 
 
+def crop_top(top: int, page_1: bool = False, dump_image: bool = False):
+    def settings(page: Page) -> Tuple[Page, Dict[str, Any]]:
+        settings = {}
+        if not page_1 or page.page_number == 1:
+            page = page.crop((0, top, page.width, page.height))
+        if dump_image:
+            im = page.to_image()
+            im.debug_tablefinder(settings)
+            im.save(f"page-{page.page_number}.png")
+        return page, settings
+
+    return settings
+
+
+def settings_2024_25_q2(page: Page) -> Tuple[Page, Dict[str, Any]]:
+    right_border = page.width - 115
+    settings = {"explicit_vertical_lines": [right_border]}
+    # im = page.to_image()
+    # im.draw_vline(right_border, stroke=(0,0,255), stroke_width=1)
+    # im.debug_tablefinder(settings)
+    # im.save(f"page-{page.page_number}.png")
+    return page, settings
+
+
 def settings_2024_25_q1(page: Page) -> Tuple[Page, Dict[str, Any]]:
     settings = {}
     page = page.crop((0, 81, page.width - 130, page.height))
     return page, settings
 
 
-def settings_2023_24_q4(page: Page) -> Tuple[Page, Dict[str, Any]]:
-    settings = {}
-    if page.page_number == 1:
-        page = page.crop((0, 95, page.width, page.height))
-    return page, settings
-
-
-
 FILE_ARGS = {
+    "pdfs/2024-2025_q2_deviation.pdf": {
+        "headers_per_page": False,
+        "page_settings": settings_2024_25_q2,
+        "end_page": 24,
+    },
     "pdfs/2024-2025_q1_deviation.pdf": {
-        "skiprows": 0,
         "page_settings": settings_2024_25_q1,
+        "expected_rows": 1316,
+    },
+    "pdfs/2023-2024_q4_deviation.pdf": {
+        "page_settings": crop_top(40),
+        "expected_rows": 1855,
+    },
+    "pdfs/2023-2024_q3_deviation.pdf": {
+        "page_settings": crop_top(40),
+        "expected_rows": 749,
+    },
+    "pdfs/2023-2024_q2_deviation.pdf": {
+        "page_settings": crop_top(50),
+        "expected_rows": 675,
     },
     "pdfs/2023-2024_q1_deviation.pdf": {
         "end_page": 13,
@@ -97,10 +135,14 @@ FILE_ARGS = {
     },
     "pdfs/2022-2023_q4_deviation.pdf": {
         "headers_per_page": False,
-        "skiprows": 0,
-        "page_settings": settings_2023_24_q4,
+        "page_settings": crop_top(95, page_1=True),
+        "expected_rows": 537,
     },
-    "pdfs/2022-2023_q3_deviation.pdf": {"headers_per_page": False, "skiprows": 2},
+    "pdfs/2022-2023_q3_deviation.pdf": {
+        "headers_per_page": False, 
+        "page_settings": crop_top(55, page_1=True),
+        "expected_rows": 531,
+    },
 }
 
 
@@ -126,42 +168,60 @@ def assert_row_number(row: Dict[str, str], last_row_number: int) -> int:
     return row_number
 
 
-def extract_file(pdf_path: Path):
+def extract_file(pdf_path: Path, lookups: Dict[str, Lookup], print_rows: bool = False):
     csv_file_name = f"{pdf_path.stem}.csv"
+    overrides = lookups["overrides"]
+
     with open(csv_file_name, "w") as csvfile:
         writer = DictWriter(csvfile, fieldnames=CSV_COLUMNS)
         writer.writeheader()
         parse_pdf_args = {
-            "skiprows": 1,
             "headers_per_page": True,
         }
         parse_pdf_args.update(FILE_ARGS.get(str(pdf_path), {}))
         last_row_number = 0
         for row in parse_pdf_table(pdf_path, **parse_pdf_args):
             row = map_keys(row)
+            if print_rows:
+                print(row)
+            override_key = slugify(stringify(row))
+            override = overrides.match(override_key)
+            if override is not None:
+                row = override.row
+            print(row)
 
+            if "signature" in row.get("row_number").lower():
+                break
             if row.get("row_number").lower() == "deviations report":
                 continue
             if not row.get("entity_department") and not row.get("project_description"):
                 continue
 
-            assert_required_fields(row)
-            last_row_number = assert_row_number(row, last_row_number)
+            try:
+                assert_required_fields(row)
+                last_row_number = assert_row_number(row, last_row_number)
+            except Exception:
+                print(f"Error in row after {last_row_number}. Override key: {override_key}")
+                raise
 
             writer.writerow(row)
 
 
-def main(paths: List[str]):
+@click.command()
+@click.argument("paths", type=str, nargs=-1)
+@click.option("--print-rows", is_flag=True, default=False)
+def main(paths: List[str], print_rows: bool = False):
+    lookups = read_lookups("deviations.yml")
+
     pdf_files = [Path(p) for p in paths]
     if not pdf_files:
         pdf_files = [
             Path(f"pdfs/{f}") for f in os.listdir("pdfs") if f.endswith(".pdf")
         ]
     for pdf_file in pdf_files:
-        extract_file(pdf_file)
+        extract_file(pdf_file, lookups, print_rows)
     print("Conversion complete.")
 
 
 if __name__ == "__main__":
-    paths = argv[1:]
-    main(paths)
+    main()
