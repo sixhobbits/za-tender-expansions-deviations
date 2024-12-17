@@ -48,10 +48,6 @@ CSV_COLUMNS = [
     "contract_start_date",
     "contract_expiry",
     "status",
-    "award_by_ao_aa_date",
-    "contract_start_date",
-    "contract_expiry",
-    "status",
     "supported",
     "rollover_or_new",
 ]
@@ -96,6 +92,11 @@ def settings_2024_25_q2(page: Page) -> Tuple[Page, Dict[str, Any]]:
     # im.draw_vline(right_border, stroke=(0,0,255), stroke_width=1)
     # im.debug_tablefinder(settings)
     # im.save(f"page-{page.page_number}.png")
+    if page.page_number == 1:
+        page = page.crop((0, 81, page.width, page.height))
+        #im = page.to_image()
+        #im.debug_tablefinder(settings)
+        #im.save(f"page-{page.page_number}.png")
     return page, settings
 
 
@@ -188,7 +189,6 @@ def extract_file(pdf_path: Path, lookups: Dict[str, Lookup], print_rows: bool = 
             override = overrides.match(override_key)
             if override is not None:
                 row = override.row
-            print(row)
 
             if "signature" in row.get("row_number").lower():
                 break
