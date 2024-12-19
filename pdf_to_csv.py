@@ -13,7 +13,7 @@ for pdf_file in pdf_files:
             csv_writer = csv.writer(csvfile)
             for page in pdf.pages:
                 # Extract tables with specified tolerance
-                   table_settings = {
+                table_settings = {
                        "vertical_strategy": "lines",
                        "horizontal_strategy": "lines",
                        "intersection_x_tolerance": 5,
