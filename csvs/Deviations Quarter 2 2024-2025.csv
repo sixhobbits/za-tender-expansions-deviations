@@ -7,14 +7,7 @@ No.,"Period/ Quarter
 date
 (yyyy/mm/dd)",Contract start date,Contract expiry (yyyy/mm/dd),"Status
 (Use dropdown List)"
-""
-"Actual Total
-Amount amount
-ConditioPending,
-nal Noting,
-SupportClosing
-ed & Other"
-""
+DEVIATIONS,,,,,,,,,,,
 1,Q2 2024/25,2024/06/24,Legal Aid South Africa,Provision of Quality Assurance services,Webber Wentzel,"R286 350,00",Emergency,2024/06/03,Not Stated,Not Stated,Reported
 2,Q2 2024/25,2024/06/24,Legal Aid South Africa,Jaws upgrade for disabled employee,Sensory Solutions,"R18 990,00",Sole service provider,2024/06/07,Not Stated,Not Stated,
 3,Q2 2024/25,2024/06/24,Special Investigating Unit (SIU),Procurement of Supply and Delivery of 30 Laptops,CompuAfrika (Pty) Ltd,R 806 610.00,"A total of five (05) quotations were received. Only two (02) quotations were
@@ -146,6 +139,14 @@ the required ammunition as they are the Original Equipment Manufacturer
 (ARMSCOR)",Purchasing of Suprasolv.,Merck Life (Pty) Ltd,"R 53 591,28","Merck (Pty) Ltd is a sole supplier for Gas Chromatograph Mass
 Spectrometer Suprasolv in South Africa.",2024/07/02,2024/07/02,2024/09/30,
 55,Q2 2024/25,2024/06/28,Eskom Holdings SOC Ltd,Pump Raw Water,APE Pumps,"R6 228 214,07",Urgent Procurement,2024/05/23,2024/05/23,2024/11/21,
+""
+"Actual Total
+Amount amount
+ConditioPending,
+nal Noting,
+SupportClosing
+ed & Other"
+""
 56,Q2 2024/25,2024/06/28,Eskom Holdings SOC Ltd,Yellow Plant Hire,Risiva Mnotho Business Enterprise,"R6 228 214,07",Urgent Procurement,2024/05/07,2024/05/07,2025/05/31
 57,Q2 2024/25,2024/06/28,Eskom Holdings SOC Ltd,Boiler tubes for Unit 6 IR,Babcock Ntuthuko Engineering,"R6 228 214,07",Urgent Procurement,2024/05/09,2024/06/07,2024/09/30
 58,Q2 2024/25,2024/06/28,Eskom Holdings SOC Ltd,Set: Rotating Throat; Mill 12.9E;8;STL,Enflotech,"R727 740,47",Sole Source,2024/05/06,2024/05/06,2024/06/28
