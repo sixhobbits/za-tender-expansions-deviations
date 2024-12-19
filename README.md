@@ -12,6 +12,10 @@ This project's goal is to
 * Extract the data into something more standard
 * Analyse it to look for anything weird or interesting
 
+## Older and less structured sharepoint data
+
+In December 2024, we also noticed that the same PDFs and older PDFs are available on the treasury sharepoint site at http://ocpo.treasury.gov.za/Resource_Centre/Deviations/Forms/AllItems.aspx. These are not consistently named, but we have included them in the 'sharepoint_pdfs' folder. Some of them overlap with the more consistently named ones linked earlier.
+
 # Installation
 
     python -m venv env
