@@ -13,7 +13,15 @@ for pdf_file in pdf_files:
             csv_writer = csv.writer(csvfile)
             for page in pdf.pages:
                 # Extract tables with specified tolerance
-                tables = page.extract_tables({"snap_tolerance": 3, "join_tolerance": 0, "edge_min_length": 3, "min_words_vertical": 3, "min_words_horizontal": 1, "text_x_tolerance": 3, "text_y_tolerance": 0, "intersection_tolerance": 3})
+                   table_settings = {
+                       "vertical_strategy": "lines",
+                       "horizontal_strategy": "lines",
+                       "intersection_x_tolerance": 5,
+                       "intersection_y_tolerance": 5,
+                       "text_y_tolerance": 0
+                   }
+
+                tables = page.extract_tables(table_settings)
                 for table in tables:
                     for row in table:
                         csv_writer.writerow(row)
