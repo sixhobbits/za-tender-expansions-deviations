@@ -37,6 +37,20 @@ e.g. it lets us filter by keyword in project and see that correctional services 
 ![screenshot 2024-11-05 at 12 54 35@2x](https://github.com/user-attachments/assets/4334c818-4c57-48e3-b2a4-5de2d9d9cb69)
 
 
+## Loading data into database
+
+The data can be loaded all into one table by running the following command once for each file.
+
+    csvsql --insert --create-if-not-exists --no-constraints  --tables deviations --db sqlite:///deviations.db 2024-2025_q2_deviation.csv
+
+
+## Exploring the data
+
+The data can be explored using datasette by running
+
+    datasette serve deviations.db
+
+
 ## Current status
 
 * the `scrape_deviations_expansions.py` pulls down the PDFs and saves them with standard names
