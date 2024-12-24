@@ -14,12 +14,9 @@ for pdf_file in pdf_files:
             for page in pdf.pages:
                 # Extract tables with specified tolerance
                 table_settings = {
-                       "vertical_strategy": "lines",
-                       "horizontal_strategy": "lines",
-                       "intersection_x_tolerance": 5,
-                       "intersection_y_tolerance": 5,
-                       "text_y_tolerance": 0
-                   }
+                        "snap_y_tolerance": 1, # prevents 2 rows being merged into one when they are too narrow
+                        "text_y_tolerance": 0  # prevents corrupt text from combining two rows of text in same cell
+                }
 
                 tables = page.extract_tables(table_settings)
                 for table in tables:
