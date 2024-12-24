@@ -1,0 +1,375 @@
+Number,Date Received (yyyy/mm/dd),Entity/Department (Use dropdown List),Project Description,Supplier,Reason for extension,"Original Contract
+Value","Value of Contract
+Extension","Value of previous
+extensions","Award/recommend
+ed by AO/ AA","not supported/not
+supported/Conditional
+supported
+(Use
+dropdown List)","Contract start date
+(yyyy/mm/dd)","Contract expiry
+(yyyy/mm/dd)"
+1,2020/01/08,"African Exploration Mining and Finance Corporation
+(AEMFC)",Hiring mining equipment,Aqua Transport (Pty) Ltd,"To ensure production continuity and
+re-issue a tender","91,070,616.00","20,955,127.50","R 85,714,123.20",2020/01/08,Conditional support,2020/02/01,2020/04/30
+2,2020/03/03,AgriSETA,"External filing system, archive and storage of AgriSETA
+dicuments",Metrofile,Single Sorce,"14,844.40","55,582.56",R 0.00,2020/02/11,supported,2020/4/1,2023/03/31
+3,2020/03/03,AgriSETA,Telephone PABX system and maintenance,Barmazel International cc,conclude bidding process,"7,000,126.10",2020/2/11,R 0.00,2020/02/11,supported,2020/4/1,2020/04/30
+4,2020/03/19,Air Traffic Navigation Services,"Expansion of the lease contract to include 1st and 2nd floors
+(896m2) in Block D",Mascena Investments (Pty) Ltd,Continuation of service,"61,807,860.00","17,372,640.00",R 0.00,2020/02/27,Supported,2020/05/01,2022/11/30
+5,2019/12/14,Airports Company South Africa,"Provision of passenger perception data collection, process
+observation and terminal and landside infrastructure
+observation to ensure the monitoring of service standards as
+per Section 21/7",Market Decisions CC,Continuity of Service,"R 2,645,961.86","R 440,944.00",,2019/11/26,Not supported,Not Stated,Not Stated
+6,2020/01/13,Airports Company South Africa,"Supply, support and maintenance of IT Facilitates Power,
+Cooling and Cabling Infrastructure",Sizwe Africa IT Group (Pty) Ltd,Continuity of Service,"R 161,962,532.45","R 26,507,260.53",,2019/11/26,Conditional support,2020/01/31,2020/03/31
+7,2020/03/17,Airports Company South Africa,"Complete Baseline Studies, partner in the development of an
+urban design plan, land use enablement and rezoning of the
+Swartklip site",Built Environment Partnership,"Continuity of service, at the time of
+contracting there were many
+unknown variables","R 7,130,000.00","R 19,647,209.90",R 0.00,2020/03/13,Conditional support,Not Stated,Not Stated
+8,2020/03/17,Airports Company South Africa,"Provision of preventative, corrective maintenance, software
+support, supply of spares and minor access control for the
+Shepperd Access Control System for the O R Tambo
+International Airport, King Shaka International Airport and
+Cape Town International Airport.",Cynaps Technologies,Continuity of service,"R 12,224,775.00","R 13,302,700.23",,2020/03/12,Not supported,2020/04/01,2022/03/31
+9,2020/03/03,BANKSETA,Microsoft Dynamics AX,Solugrowth,Continuity of Service,"R 1,978,122.56","R 632,117.28",R 0.00,2020/02/24,Conditional support,2020/4/1,2020/7/31
+10,2020/03/03,BANKSETA,BANKSETA Head Office Lease,Redefine Properties,Continuity of Service,"R 1,000,000.00","R 1,000,000.00","R 20,265,494.00",2020/02/20,Supported,2020/4/1,2020/7/31
+11,2020/02/06,Basic Education,"Variation in excess of 20% for Professional Services fees on
+ASIDI projects implemented by the Development Bank of
+South Africa (DBSA)",Various Suppliers,"DBSA encountered challenges in the
+implementation of ASIDI projects in
+the Eastern Cape ranging from
+community disruptions, inclement
+weather and poor access to sites,
+which resulted in delays in the
+delivery of building materials to sites","R 124,587,195.00","R 33,408,577,798.45","R 25,867,485.00",2020/02/06,Not supported,Not Stated,Not Stated
+12,2020/03/17,Basic Education,"Professional Support Unit (PSU) contract for Sanitation
+Appropriate for Education (SAFE) initiative",Not Stated,Continuity of service,,"R 85,506,914.45",,2020/03/13,Conditional support,2020/01/04,31/3/2022
+13,2020/03/24,BBI,Audit Services,SNG Grant Thornton,Continuity of service,"R 2,798,253.44","R 1,052,250.00","R 317,819.75",Not provided,Conditionally supported,2020/03/01,2020/09/30
+14,2020/03/16,Boxing South Africa,Office Lease,Delta Property Management,Continuity of Service,"R 2,500,000.00","R 3,281,582.04",R 0.00,2020/03/11,Supported,2020/8/1,2025/7/31
+15,2020/01/16,Brand SA,Promotion of Brand SA activities,"Brand Fusion, The Odd Number & Ebony and
+Ivory",Continuity of service,"R 159,816,990.00","R 32,422,702.00","R 42,772,549.00",Not provided,Supported,2020/02/01,2020/05/31
+16,2020/02/11,Broadband Infraco,Statutory Audit Services,Sizwe Ntsaluba Gobodo Grant Thornton Inc,Unsuccessful tender process,"R 2,781,517.92","R 1,052,250.00","R 276,365.00",Not provided,Supported,2020/03/01,2020/09/30
+17,2020/01/24,CCMA,Provision of office accommodation - Mbombela Office,Broll Property,Continuity of service,"R 2,133,440.50","R 691,712.28","R 994,512.38",Not provided,Supported,2020/05/01,2021/04/31
+18,2020/02/05,CCMA,Rental of Executive Pool Vehicles,Standard Bank,Competitive bidding in progress,"R 462,869.37","R 36,114.66","R 41,369.22",Not provided,Supported,2020/02/14,2020/08/31
+19,2020/03/10,CCMA,Provision of office accommodation - Bloemfontein,Michael Family Trust,Continuity of service,"R 23,086,465.31","R 3,846,701.52","R 4,791,886.02",Not provided,Supported,2020/03/01,2020/02/28
+20,2020/02/25,CETA,Investigations of CETA affairs,Ntumba & Associates,Continuity of Service,"R 2,736,000.00","R 383,633.59","R 215,054.00",2020/2/25,Not supported,2020/3/1,2020/6/30
+21,2020/03/13,CETA,Provision of office accommodation - Head Office,Slip Knot Investment 777,Continuity of Service,"R 4,831,285.80","R 766,256.45","R 5,418,274.81",2020/3/13,Not supported,2020/4/1,2020/6/30
+22,2020/03/13,CETA,Insurance Services,Kunene Makopo Risk Solutions,Continuity of Service,"R 622,099.92","R 146,168.79","R 183,256.87",2020/03/13,Not supported,2020/4/1,2020/6/30
+23,2020/01/31,Council for Scientific and Industrial Research,Construction of Cofimvaba Science Centre,Helm Construction,Continuity of Service,"R 24,508,084.00","R 8,854,005.00","R 4,292,495.00",Not provided,Not supported,Not Stated,Not Stated
+24,2020/01/31,Council for Scientific and Industrial Research,Construction of Cofimvaba Science Centre,Clarence Boble Inc,Continuity of Service,"R 530,350.00","R 194,783.00",R 0.00,Not provided,Not supported,Not Stated,Not Stated
+25,2020/01/31,Council for Scientific and Industrial Research,Construction of Cofimvaba Science Centre,Element Consulting Engineers,Continuity of Service,"R 830,466.00","R 859,255.00",R 0.00,Not provided,Not supported,Not Stated,Not Stated
+26,2020/01/31,Council for Scientific and Industrial Research,Construction of Cofimvaba Science Centre,Occumed Close Corporation,Continuity of Service,"R 133,696.00","R 199,196.00",R 0.00,Not provided,Not supported,Not Stated,Not Stated
+27,2020/01/24,"Culture Arts Tourism Hospitality and Sports ETA
+(CATHSETA)",Secretariat Services,"Imbokodvo Bethany Governance and
+Statutory Compliance Pty Ltd",Continuity of Service,"R 825,000.00","R 450,000.00",R 0.00,2020/1/23,Supported,2020/3/1,2020/5/31
+28,2020/01/24,"Culture Arts Tourism Hospitality and Sports ETA
+(CATHSETA)",MTN MPLS & Telephony Services,MTN,Continuity of Service,"R 32,802.28","R 4,357,053.26",R 0.00,2020/1/23,Not supported,Not Stated,Not Stated
+29,2020/01/24,"Culture Arts Tourism Hospitality and Sports ETA
+(CATHSETA)",Enterprise Resource Planning (ERP),Dajo Technologies,Continuity of Service,"R 15,673,651.30","R 3,120,000.00",R 0.00,2020/1/23,Supported,2020/4/1,2022/3/31
+30,2020/03/17,"Culture Arts Tourism Hospitality and Sports ETA
+(CATHSETA)",Appeal -MTN MPLS & Telephony Services,MTN,Continuity of Service,"R 2,178,526.00","R 4,357,053.26",R 0.00,2020/3/17,Supported,2020/4/1,2022/3/31
+31,2020/03/09,DCS,"Food items (perishable and non-perishable) for ration of
+inmates",Various,Competitive bidding in progress,454 897 162.94,136 569 148.88,R 0.00,2020/03/09,Conditional support,2020/04/01,2020/10/31
+32,2020/02/03,Denel,LMT Loan Investigation,PWC,Continuation of service,"R 1,788,007.00","R 595,664.00",R 0.00,2020/02/03,Conditional support,Date of approval,2020/11/30
+33,2020/02/18,Denel,SAP Functional Support,Trinergy Business Solutions (Pty) Ltd,Continuation of service,Not stated,"R 4,095,920.00",R 0.00,2020/02/05,Conditional support,2020/02/17,2020/08/30
+34,2020/03/26,Department of Arts and Culture,Venture Capital Fund Programme,National Empowerment Fund,Continuity of Service,"R 100,000,000.00",R 0.00,R 0.00,2020/03/26,Not supported,Not Stated,Not Stated
+35,2020/03/17,ECIC,Asset management,Argon Asset Management,"Avoidance to appoint a new supplier,
+only to be replaced to align with the
+new investment strategy",$1 600 087,$1 355 844,0.00,2020/03/17,Not supported,Not stated,Not stated
+36,2020/03/17,ECIC,Asset management,Investec Management,"Avoidance to appoint a new supplier,
+only to be replaced to align with the
+new investment strategy",$76 194 697,$948 418,0.00,2020/03/17,Not supported,Not stated,Not stated
+37,2020/01/15,Environmental Affairs,Forensic services,Morar Incorporated,Additional scope,"R 4,976,500.00","R 4,000,000.00",R 0.00,2019/12/2,Supported,2020/04/01,2020/06/30
+38,2020/02/21,Environmental Affairs,"Convention on international trade in endangered species of
+wild Fauna and Flora conference",Fortis Hotel,Variation order,"R 18,250.00","R 9,750.00",R 0.00,2020/2/21,Supported,2019/06/11,2019/06/11
+Number,Date Received (yyyy/mm/dd),Entity/Department (Use dropdown List),Project Description,Supplier,Reason for extension,"Original Contract
+Value","Value of Contract
+Extension","Value of previous
+extensions","Award/recommend
+ed by AO/ AA","not supported/not
+supported/Conditional
+supported
+(Use
+dropdown List)","Contract start date
+(yyyy/mm/dd)","Contract expiry
+(yyyy/mm/dd)"
+39,2020/02/21,Environmental Affairs,The Natural capital accounting seminar,Manhattan Hotel,Variation order,"R 16,400.00","R 6,150.00",R 0.00,2020/2/21,Supported,2019/09/07,2019/09/07
+40,2020/03/02,Environmental Affairs,"The South African State Environment 2025 visioning
+workshop",Manhattan Hotel,Variation order,"R 82,000.00","R 14,350.00",R 0.00,2020/3/2,Supported,2019/10/17,2019/10/18
+41,2019/12/17,Eskom,"Refurbishment of the Heat Ventilation and Air Conditioning
+(HVAC) System on Units 1 to 6, Common Plant and Outside
+Plant at Duvha Power Station",Enviroware Construction (Pty) Ltd,Time delays,"R 71,233,321.33","R 10,370,123.37","R 28,528,070.65",2019/12/12,Conditional support,2019/04/01,2023/03/31
+42,2020/01/13,Eskom,"Legal services for defending referrals for the Medupi and
+Kusile Boiler contracts to the Dispute Adjudication Board",Bowman Gilfillan Inc,Continuity of service,"R 35,801,418.71","R 45,362,973.12",R 0.00,2020/01/13,Conditional support,Not stated,Not stated
+43,2019/12/17,Eskom,"Provision of fuel cards facilities for fuel, oil, toll fees, repairs
+and maintenance facilities",Standard Bank,Continuity of service,"R 7,217,841.84","R 1,928,000.00","R 43,959,843.86",2019/12/12,Conditional support,2020/01/01,2020/03/31
+44,2020/02/14,Eskom,"Provision of Fuel Cards Facilities for Fuel, Oil, Toll Fees,
+Repairs and Managed Maintenance Facilities",Standard Bank SA,"Transition period for system
+configuration","R 7,217,841.84","R 3,856,000.02","R 45,887,843.86",2020/02/13,Conditional support,2020/03/01,2020/03/30
+45,2020/02/18,Eskom,"Supply, Transportation, Erection and Dismantling of
+Scaffolding and Insulation Material for Generation Power
+Stations including Group Capital (Refurbishment Projects)","Southey Contracting (Pty) Ltd, Kaefer Thermal
+Consulting Services (Pty) Ltd, SGB-Cape a
+division of WACO Africa & TMS Group
+Industrial Services (Pty) Ltd",Competitive bidding in progress,"R 378,499,500.00","R 7,371,133,022.19","R 1,102,850,000.00",2020/02/17,Conditional support,2020/07/01,2021/06/30
+46,2020/03/03,Eskom,"Supply, Delivery and Off-loading of sulphuric acid to Eskom's
+Coal Fired Stations",Maano Waters (Pty) Ltd,Additional scope of work,"60,731,838.50","25,480,678.20",R 0.00,2020/03/03,Conditional support,2017/03/01,2020/02/23
+47,2020/03/18,Eskom,"Physical Security Guarding Services for Ankerlig
+Transmission Second Supply (ATKSS Project) Construction
+Site, a National Key Point",Vusa-Isizwe Security (Pty) Ltd,"Continuation of service and to test
+the market",1320926.74,"3,047,887.98",R 0.00,2020/03/18,Conditional support,2020/04/01,2021/03/31
+48,2020/02/17,Eskom,"Replacement of Generator Current Transformers (CT's) and
+Voltage Transformers (VT's) on Units 3 to 6 at Duvha Power
+Station",Sasietha Transport and Dev (Pty) Ltd,Outage deferements,"1,653,949.36","155,176.82",R 0.00,2020/02/17,Conditional support,2020/02/17,2020/02/17
+49,2020/02/19,Eskom,"Maintenance and outage repair services for boiler pressure
+parts, and/or the maintenance and outage repair services for
+high pressure pipework for generation power station","Steinmuller Africa (Pty) Ltd, Babcock Ntuthuko
+Engineering (Pty) Ltd and Actom (Pty) Ltd","To allow for stability and no
+disruption on the current
+maintenance and outage work being
+executed at power station","851,000,000.00",time extension,"R 15,610,026,394.67",2020/02/18,Conditional support,2020/01/06,2020/09/30
+50,2019/12/24,Eskom,"Technical Support and Maintenance Services and the
+Manufacture, Supply and Delivery of Air Heaters and Draught
+Plant Fans and Spares for 15 Coal Fired Generation Power
+Stations",Howden Africa,Funds depleted,"1,307,263,650.00","903,900,000.00",R 0.00,2020/02/17,Conditional support,2020/07/01,2021/06/30
+51,2020/02/14,Eskom,Virtual Power Station (VPS) Aggregator Systems,NEXTEC Industrial Technologies (Pty) Ltd,Competitive bidding in progress,"20,781,018.50",time extension,"R 112,480,610.40",2020/03/09,Conditional support,2020/03/28,2021/03/28
+52,2020/12/17,Eskom,"Replacement of Medium Voltage (MV) switchgear on Units 1
+to 6, Outside and Common Plant at
+Duvha Power Station,",Siemens (Pty) Ltd,Outage deferements,"210,032,399.00","43,515,200.45","R 19,269,395.73",2020/12/17,Conditional support,2020/04/01,2023/03/31
+53,2020/03/06,Eskom,Provision of Telco WAN (Data links),Dark Fibre,Additional scope of work,2 554 056,23 050 497,R 0.00,2020/03/06,Not supported,2024/11/30,2025/02/28
+54,2020/03/16,Eskom,"Procurement of strip, assess and repair CO2 analyser gas",Sick Automation Southern Africa (Pty) Ltd,Pay the supplier,R206 863.93,621 595.47.,R 0.00,2020/03/11,Not supported,Not stated,Not stated
+55,2020/02/02,Eskom,Online Vending Agency Services Contractors,"A2L Corporation (Pty) Ltd; Anytime (Pty) Ltd;
+CigiCell Contour; EasyPay (Pty) Ltd; Flash
+Mobile (Pty) Lt; Lancaster Electric Solutions
+(Pty) Ltd JV; Ontec Systems (Pty) Ltd;
+Tukisha Prepaid (Pty) Ltd; Pamodzi Pasha
+Sandulela (Pty) Ltd)",Competitive bidding in progress,"1,156,033,507.20","260,000,00.00","1, 002,530,562.00",2020/01/31,Conditional support,2020/03/01,2020/08/30
+56,2020/01/29,Eskom,"Support and Maintenance of Eskom Finance Core Banking
+Systems and IT Infrastructure",Ernest and Young,"Allow for a transition process from
+current service provider to preffered","18,954,495.00","1, 833,957.00","R 35,021,129.94",2020/01/29,Conditional support,2020/02/01,2020/04/30
+57,2020/02/24,Eskom,IT Services During Disengagement,T-System,"supplier
+Competitive bidding in progress","2,936,231,859.00","180,000,000.00","R 8,212,038,203.00",2020/02/21,Conditional support,2020/03/01,2020/06/30
+58,2020/02/07,Eskom,Auxilliary and Direct Content Board,Eaton Electric SA,Outage delays,"41,801,066,601.00",2 423 064 .20,56 218 284.84,2020/01/14,Conditional support,2020/04/01,2023/03/31
+59,2020/01/11,Eskom,Energy metering,PowerTech IST (Pty) Ltd,Outage delays,"12,171,387.05",177 284.309,13 345 635.25,2020/01/11,"Within AA/AO mandate
+Noting",2020/04/01,2023/03/31
+60,2019/12/17,Eskom,Replacement of Control and Instrument System,Siemens (Pty) Ltd,Outage delays,475 149 589.64,145 098 241.92,156 439 316.80,,Conditional support,2020/04/01,2023/03/31
+61,2020/02/07,Eskom,Auxilliary and Direct Content Board,Eaton Electric SA,Outage delays,"41,801,066,601.00",2 423 064 .20,56 218 284.84,2020/01/14,Conditional support,2020/04/01,2023/03/31
+62,2019/12/17,Eskom,Replacement of Control and Instrument System,Siemens (Pty) Ltd,Outage delays,475 149 589.64,145 098 241.92,156 439 316.80,,Conditional support,2020/04/01,2023/03/31
+63,2019/12/17,Eskom,"Upgrading of the main turbine, boiler feeed pump Turbine at
+Duvha Power Station on Units 1 to 6",GE Oil,Outage delays,"31,943,326.00","6,560,330.18","R 3,184,737.00",2019/12/12,Conditional support,2020/04/01,2023/03/31
+64,2020/03/26,EWSETA,Placement Agency,EO Executive Placements,Placement of CFO,"499,999.00","559,872.00",R 0.00,2020/03/26,Supported,2020/04/01,2020/09/30
+65,2020/03/13,FP&MSETA,Management Information Systems,Solugrowth,Continuity of Service,"4,082,081.06","1,396,255.35",R 0.00,2020/03/13,Supported,2020/4/1,2020/10/31
+66,2020/03/13,FP&MSETA,Internet Service,MTN,Continuity of Service,"1,871,999.93","320,000.00",R 0.00,2020/03/13,Supported,2020/4/1,2020/7/31
+67,2020/02/06,GCIS,"Development, maintenance and enhancement of website
+content",Burtronix CC,Competitive bidding in progress,"2,154,600.00","362,250.00","R 215,460.00",Not provided,Supported,2020/02/23,2020/08/22
+68,2020/03/04,Government Printing Works,Support and maintenance of the e-gazette,Intervaye Solutions,SITA contracts not awarded,"5,712,060.00","3,206,246.40","R 3,947,519.36",2020/02/24,Conditional support,2020/04/01,2020/09/30
+69,2020/02/19,GPAA,Infoslips Licence and Support,Perx Media,Competitive bidding in progress,"23,328,740.75",0.00,"R 5,071,091.66",Not provided,Supported,2020/04/01,2021/03/31
+70,2020/0317,GPAA,MTN Call Centre,MTN,Continuity of service,"14,388,114.53","505,196.20","R 3,803,546.75",Not provided,Supported,2020/04/01,2020/05/31
+71,2020/02/10,GTAC,Technical analysis on fair value analyses for IP,Mindworx,Scope expansion,"463,404.00","2,059,356.00",R 0.00,Not provided,Supported,2020/01/22,2020/02/26
+72,2020/02/27,Health,"Establishment of National Health Insurance Fund (NHI)
+implementation office and related activities",Dr. Nicholas Crisp,Continuation of service,"1,740,632.26","1,740,632.26",R 0.00,2020/02/26,Not supported,2020/03/01,2020/08/31
+73,2020/02/21,Home Affairs,"Re-negotiation of the Gijima Definitive agreement for direct
+services",Gijima,Cost value contract,"80,000,000.00",Not stated,Not stated,2020/01/22,Conditional support,Not stated,Not stated
+74,2020/02/18,IEC,lease of office accomodation- Mpumalanga Provincial Office,Liberty Moon Investments,Continuity of service,"146,811,234.00","36,863,011.00","R 16,483,937.00",Not provided,Supported,2020/03/01,2024/09/30
+75,2020/03/17,Inkomati-Usuthu Catchment Management Agency,Leasing of premises in Nelspruit,Maxsa Properties (Pty) Ltd,Continuity of service,"17,526,009.12","2,257,019.04","R 14,520,817.68",2020/03/17,Not supported,2020/06/01,2020/11/30
+76,2020/02/18,IPID,Irregular appointment of an official,Adv. T. Ngcukaitobi,Continuity of service,Not stated,"500,000.00",Not stated,Not provided,Supported,Not stated,Not stated
+77,2020/02/12,KZN Community Education and Training College,Office Accommodation,17 Kosi Place,Continuity of Service,"770,040.00","831,643.20",R 0.00,Not provided,"Within AA/AO mandate
+Noting",2020/4/1,2021/3/31
+78,2020/02/10,Labour,Travel services,Tourvest Travel,Competitive bidding in progress,"R 23,065,065.00",Demand Baed,"R 2,651,735.33",Not provided,Supported,2020/01/03,2020/05/31
+Number,Date Received (yyyy/mm/dd),Entity/Department (Use dropdown List),Project Description,Supplier,Reason for extension,"Original Contract
+Value","Value of Contract
+Extension","Value of previous
+extensions","Award/recommend
+ed by AO/ AA","not supported/not
+supported/Conditional
+supported
+(Use
+dropdown List)","Contract start date
+(yyyy/mm/dd)","Contract expiry
+(yyyy/mm/dd)"
+79,2020/02/28,Lepelle Northern Water,Security service,CS Security,Finalisation of tender evaluation,"R 3,682,512.00","1,271,867.00","R 2,410,645.00",2020/02/28,Not supported,2020/03/01,2020/05/31
+80,2020/01/10,Local Gov SETA,Appeal: Office Accommodation,Growth Point Management Services,Continuity of service,"R 3,406,415.00","R 750,000.00","R 1,320,000.00",Not provided,Conditional support,2020/04/01,2021/03/31
+81,2020/01/11,Local Gov SETA,Appeal: Office Accommodation,Delta Property Fund,Continuity of service,"R 1,999,455.75","R 760,000.00","R 1,583,605.75",Not provided,Conditional support,2020/04/01,2021/03/31
+82,2020/01/12,Local Gov SETA,Appeal: Office Accommodation,Rock properties Trust,Continuity of service,"R 1,535,999.75","R 420,000.00","R 2,312,524.15",Not provided,Conditional support,2020/04/01,2021/03/31
+83,2020/01/13,Local Gov SETA,Appeal: Office Accommodation,Redefine Properties,Continuity of service,"R 407,546.23","R 250,000.00","R 426,581.70",Not provided,Conditional support,2020/04/01,2021/03/31
+84,2020/01/14,Local Gov SETA,Appeal: Office Accommodation,Thomas Family Trust,Continuity of service,"R 1,188,382.64","R 700,000.00","R 1,150,480.00",Not provided,Conditional support,2020/04/01,2021/03/31
+85,2020/01/15,Local Gov SETA,Appeal: Office Accommodation,"Public Investments Corporation - Mowana
+Properties",Continuity of service,"R 15,317,700.18","R 3,500,000.00","R 5,615,805.00",Not provided,Conditional support,2020/04/01,2021/03/31
+86,2020/01/16,Local Gov SETA,A[ppeal: Office Accommodation,Delta Property Fund (Pty) Ltd,Continuity of service,"R 730,957.96","R 500,000.00","R 954,581.00",Not provided,Conditional support,2020/04/01,2021/03/31
+87,2020/01/17,Local Gov SETA,Appeal; Office Accommodation,Columbia Falls - Maponya Investment,Continuity of service,"R 1,168,590.78","R 350,000.00","R 1,437,156.00",Not provided,Conditional support,2020/04/01,2021/03/31
+88,2020/01/18,Local Gov SETA,Appeal: Office Accommodation,Excellerate Real Estate Services (Pty) Ltd,Continuity of service,"R 845,424.00","R 566,666.00",R 0.00,Not provided,Conditional support,2020/04/01,2021/03/31
+89,2019/12/23,Mango Airlines,Social Media Services,Flow Communications,Competitive bidding in progress,"R 4,320,000.00","R 900,000.00","R 360,000.00",2019/12/23,Conditional support,Not stated,Not stated
+90,2020/02/03,"Manufacturing, Engineering and Relate for Q1d SETA",Appeal: Internal Audit Services,O.M.A Chartered Accountants Inc.,Continuity of Service,"R 1,167,217.66","R 795,809.35","R 175,082.65",2020/1/30,Not supported,2019/07/01,2019/12/31
+91,2020/02/13,"Manufacturing, Engineering and Relate for Q1d SETA",Provision of office accommodation,Genesis,Continuity of Service,"R 12,151,907.29","R 9,140,572.68","R 14,174,209.18",2020/2/6,Conditional support,2020/04/01,2021/03/31
+92,2020/02/13,"Manufacturing, Engineering and Relate for Q1d SETA",Provision of office accommodation,AIDC,Continuity of Service,"R 357,048.00","R 618,555.12","R 7,207,577.59",2020/2/6,Conditional support,2020/04/01,2021/03/31
+93,2020/02/13,"Manufacturing, Engineering and Relate for Q1d SETA",Provision of office accommodation,Retcon,Continuity of Service,"R 1,020,000.00","R 1,551,936.12","R 5,686,960.00",2020/2/6,Conditional support,2020/04/01,2021/03/31
+94,2020/02/13,"Manufacturing, Engineering and Relate for Q1d SETA",Provision of office accommodation,Mauveine,Continuity of Service,"R 265,392.00","R 812,908.92","R 9,713,171.12",2020/2/6,Conditional support,2020/04/01,2021/03/31
+95,2020/02/13,"Manufacturing, Engineering and Relate for Q1d SETA",Provision of office accommodation,Koutoris Trust,Continuity of Service,"R 265,392.00","R 951,537.60","R 5,196,777.12",2020/2/6,Conditional support,2020/04/01,2021/03/31
+96,2020/02/13,"Manufacturing, Engineering and Relate for Q1d SETA",Provision of office accommodation,Klipdrift,Continuity of Service,"R 558,116.80","R 217,876.80","R 735,008.74",2020/2/6,Conditional support,2020/04/01,2021/03/31
+97,2020/02/13,"Manufacturing, Engineering and Relate for Q1d SETA",Provision of office accommodation,De Bruyn,Continuity of Service,"R 1,421,577.92","R 882,681.60","R 983,141.04",2020/2/6,Conditional support,2020/04/01,2021/03/31
+98,2020/02/13,"Manufacturing, Engineering and Relate for Q1d SETA",Provision of office accommodation,Capricon FET,Continuity of Service,"R 323,242.12","R 127,483.24",R 0.00,2020/2/6,Conditional support,2020/04/01,2021/03/31
+99,2020/03/23,"Manufacturing, Engineering and Relate for Q1d SETA",Calculations of return on investments,Fidelity Security services,Expansion of scope,"R 128,800.00","R 687,462.12",R 0.00,2020/3/13,Not supported,Not Stated,Not Stated
+100,2020/01/23,Mhlathuze Water,"Professional Fees (Design, monitor construction and
+commissioning of New Weir Structure)",Bvi Consulting Engineers,Revision of construction cost,"R 3,441,831.00","R 996,297.45",,23/1/2020,Supported,Not Stated,Not Stated
+101,2020/02/20,Mining Qualifications Authority,"Provision , support and manage MQA's Workplace Skills
+Plan (WSP) / Annual Training Report (ATR) submission and",Naicker Consulting Services t/a IT Aware,"MQA will not have enough time to
+ensure that the new system is","R 4,880,000.00","R 1,059,210.55","R 671,315.80",20/2/2020,Conditional support,2020/01/03,31/5/2020
+102,2020/03/26,National Film and Video Foundation,"approval system.
+Services for management of internal and external
+communications",Instinctif Partners,"thoroughly tested and all system
+Cancellation of the SAFTA's due to
+COVID 19","R 1,256,605.00","R 209,434.16",R 0.00,2020/03/26,Supported,2020/04/01,2020/05/31
+103,2020/01/13,National Treasury,Provision of printing service of Embargoed Information,ABC Printers,Additional Scope of service,"R 10,919,700.00","R 4,786,498.00",R 0.00,Not provided,Not supported,2020/01/27,3 Years
+104,2020/01/09,National Treasury,Provision of consulting services,ORACLE,Additional scope of work,"R 756,200,000.00","R 147,763,300.00",R 0.00,Not provided,Not supported,Date of approval,2021/04/29
+105,2020/02/07,National Treasury,Extension of security services,Rise Security Services,Competitive bidding in progress,"R 22,607,929.80","R 4,660,499.00",R 0.00,Not provided,Supported,2020/04/04,2020/09/30
+106,2020/03/25,National Treasury,Variour RT Contracts,Various service providers,Competitive bidding in progress,Not stated,Not stated,Not stated,Not provided,Supported,Date of approval,4 months
+107,2020/01/10,NPA,"Direct Leases for GP, LP, MP, FS, & NC offices",Different suppliers,Continuation of scope,"R 14,027,198.57","R 4,287,297.69","R 5,282,244.49",2019/12/19,Conditional support,2020/04/01,2021/03/31
+108,2020/02/22,NRCS,Provision of office accommodation,Zaft Properties (Pty) Ltd,To start a new procurement process,Not stated,"R 2,183,060.00",Not stated,2020/02/14,Not supported,2020/03/01,2021/02/28
+109,2020/02/22,NRCS,Provision of office accommodation,Arvesco 100 (Pty) Ltd,To start a new procurement process,Not stated,Not stated,Not stated,2020/02/14,Not supported,2020/03/01,
+110,2020/02/22,NRCS,Provision of office accommodation,Zaft Properties (Pty) Ltd,To start a new procurement process,Not stated,"R 2,183,060.00",Not stated,2020/02/14,Not supported,2020/03/01,2021/02/28
+111,2020/02/22,NRCS,Provision of office accommodation,Arvesco 100 (Pty) Ltd,To start a new procurement process,Not stated,Not stated,Not stated,2020/02/14,Not supported,2020/03/01,2021/02/28
+112,2020/01/06,PSETA,Legal Services: Disciplinary Hearings,Modibedi Sebele Phetoe Attorneys,Continuity of Service,"R 273,000.00","R 900,000.00",R 0.00,2019/11/6,Supported,Not Stated,Not Stated
+113,2020/02/13,PSETA,"Integrated Management Information System (MIS) and
+Enterprise Resource Planning (ERP)",Solugrowth,Continuity of Service,"R 2,100,000.00","R 2,100,000.00","R 5,508,728.00",2020/2/18,Conditional support,2020/4/1,2021/3/31
+114,2020/03/12,Road Accident Fund,"Lease contract for office lease accommodation at RAF East
+London",Drury Lane Properties,Continuation of service,"R 34,603,216.04","R 9,161,131.52","R 8,078,583.52",13/3/2020,Supported,2020/04/02,2021/04/01
+115,2020/03/05,Road Accident Fund,"Lease contract for office lease accommodation at RAF
+Polokwane Customer Service Centre",TVR Beleggings CC,Annual lease escalation,"R 3,201,680.21","R 40,549.50","R 1,095,825.12",2020/05/03,Not supported,Not stated,2020/12/01
+116,2020/01/17,Rural Development and Land Reform,Vary the telephone maintenance contract,Advanced Voice Systems (Pty) Ltd,"Additional work was not included in
+the terms of reference (TORs) when","R 645,310.43","R 292,592.81",R 0.00,2019/12/19,Supported,Not Stated,Not Stated
+117,2020/03/05,SABC,Off-site TV Licence inbound call centre,Transaction Capital recoveries (Pty) Ltd,"a tender was issued
+Continuity of Service","R 8,073,000.00","R 8,508,942.00","R 1,083,127.50",2020/3/3,Conditional support,2020/4/15,2021/3/14
+118,2020/03/11,SABC,Bulk SMS Licence inbound call centre services,Sizwe Africa IT,contract amount depleted,"R 4,687,484.00","R 2,100,000.00",R 0.00,2020/3/10,Supported,2020/4/1,2021/3/31
+119,2020/02/13,SABC,Development of new sales incentive scheme,21st Century,Scope expansion,"R 409,500.00","R 86,956.52","R 60,890.43",Not provided,Not supported,not specified,Not specified
+120,2020/02/18,SABS,High power palnt repair,Marthinusen & Coutts Cleveland,"Additional defects beyond the scope
+were discovered","R 7,745,350.00","R 4,350,465.00",R 0.00,2020/02/17,Conditional support,Commenced already,2023/08/31
+Number,Date Received (yyyy/mm/dd),Entity/Department (Use dropdown List),Project Description,Supplier,Reason for extension,"Original Contract
+Value","Value of Contract
+Extension","Value of previous
+extensions","Award/recommend
+ed by AO/ AA","not supported/not
+supported/Conditional
+supported
+(Use
+dropdown List)","Contract start date
+(yyyy/mm/dd)","Contract expiry
+(yyyy/mm/dd)"
+121,2020/02/18,SABS,High power palnt repair,Marthinusen & Coutts Cleveland,"Additional defects beyond the scope
+were discovered","R 7,745,350.00","R 4,350,465.00",R 0.00,2020/02/17,Conditional support,Commenced already,2023/08/31
+122,2020/03/18,SALGA,"Develop and Implement a Municipal Leaders and Stakeholder
+Engagement Learning Programme (MSEP)","Change Strategies Consulting
+Services",Cover additional costs,"R 5,983,100.00","R 989,570.00","R 465,486.10",2020/02/28,Not supported,2020/03/01,2020/09/30
+123,2020/02/27,SANS,Payroll Services,CPI Holdings,Tender cancellation,Not stated,Not stated,Not stated,2020/02/04,Conditional support,2020/03/01,2020/05/31
+124,2020/02/27,SANS,Payroll Services,CPI Holdings,Tender cancellation,Not stated,Not stated,Not stated,2020/02/04,Conditional support,2020/03/01,2020/05/31
+125,2020/03/18,SANSA,Provision of office accommodation,Innovation Hub,Continuity of Service,R 0.00,"R 143,413,580.46",R 0.00,2020/3/5,Conditional support,2020/4/1,2030/3/31
+126,2020/01/08,SAPO,Cash in transit,Fidelity Security,Continuity of service,"R 36,000,000.00","R 6,000,000.00","R 6,000,000.00",Not provided,Not supported,2020/01/01,2020/03/31
+127,2020/02/21,SAPO,Cash in transit,G4s,"Closure of Standard Bank Branches
+offering bulk cash delivery services","R 107,482,525.28","R 3,378,000.00","R 135,000,000.00",Not provided,Supported,2017/06/01,2020/05/31
+128,2020/01/22,SAPO,Fleet & Logistics,Arrow Logistics & Fleet Africa,Competitive bidding in progress,"R 270,788,549.44","R 52,900,000.00",R 0.00,Not provided,Supported,2020/04/01,2020/09/30
+129,2020/03/16,SAPO,Insurance Brokers,Indwe Risk,Competitive bidding in progress,"R 1,843,815.00","R 2,534,604.00",R 0.00,Not provided,Supported,2020/03/28,2021/03/28
+130,2020/03/16,SAPO,Security Mangement,In2IT Technologies,Continuity of service,"R 26,566,566.00","R 16,539,215.00",R 0.00,Not provided,Supported,2020/06/01,2022/05/31
+131,2020/01/23,SARS,Software maintenance and support services,Blue Turtles Technologies,Continuity of service,"R 14,718,068.74","R 2,924,334.92","R 2,678,394.61",Not provided,Not supported,2020/02/01,2020/03/31
+132,2020/01/06,SARS,JEM Decision Tree (Web Based),Korn Ferry,Continuity of service,"R 351,645.20","R 622,911.53","R 490,832.57",Not provided,Supported,2019/01/08,2022/07/31
+133,2020/01/08,SARS,Additional Sostware for Carbon Tax Project,Quantum Leap Consulting & Gijima (Pty)Ltd,Additional Scope of service,"R 9,408,442.56","R 1,663,363.68",R 0.00,Not provided,Not supported,Date of approval,2020/06/30
+134,2020/01/08,SARS,Additional Software Testers for Carbon Tax Project,Quantum Leap & Gijima Holdings,Scope expansion,"R 9,408,442.56","R 1,663,363.63",R 0.00,Not provided,Not supported,Date of approval,2020/06/30
+135,2020/03/18,SARS,Provision of office accommodation,MRR Management,"Unsuccesful market research for
+alternate space","R 5,191,738.17","R 16,187,419.14",R 0.00,Not provided,Supported,2020/05/01,2025/04/30
+136,2020/01/21,SASSA,Security Services for six month,Not state,Competitive bidding in progress,Not stated,Not stated,Not stated,2020/01/14,Conditional support,Not stated,Not stated
+137,2020/01/14,Science and Innovation,Provision of office accommodation,Innovation Hub,Continuity of Service,"R 1,046,204.00","R 563,820.00",R 0.00,2020/1/14,Supported,2020/04/01,2020/06/30
+138,2020/02/24,SITA,Operating Lease Agreement (EL Switching Centre),Ornyx Investments,Continuity of service,"R 323,290.92","R 195,510.12","R 1,325,614.21",Not provided,Supported,2020/04/01,2020/03/31
+139,2020/02/21,SITA,Provision of office accommodation (Kimberly Office),Bridge Trust,Continuity of service,"R 4,068,933.51","R 1,421,400.00","R 5,638,985.01",Not provided,Supported,2020/03/01,2021/02/28
+140,2020/02/10,SITA,IT systems configuration and commissioning,CHM Vuwani,Expansion of scope,"R 23,309,063.63","R 4,194,541.05",R 0.00,Not provided,Supported,Date of approval,Not specified
+141,2020/03/11,SITA,Provision of office accommodation,Capital Profound 1,Failed bid process,"R 7,296,529.80","R 14,167,818.41","R 45,131,791.09",Not provided,Conditionally supported,2020/04/01,2023/03/31
+142,2020/01/09,Small Enterprise Development Agency (SEDA),Office accommodation in Harry Gwala branch,Herring Estates and Brokers CC,Continuity of Service,"R 1,592,390.37","R 136,768.77","R 182,358.36",2020/1/9,Supported,2020/2/1,2020/04/30
+143,2020/01/24,Small Enterprise Development Agency (SEDA),Provision of office accommodation - Johannesburg,Sanlam Life Insurance Ltd,Continuity of Service,"R 4,670,095.00","R 313,387.56","R 3,270,317.44",2020/1/24,Supported,2020/2/1,2020/03/31
+144,2020/03/18,Small Enterprise Development Agency (SEDA),Travel management services,Club Travel Corporate,Continuity of Service,"R 1,105,330.92","R 833,538.23",R 0.00,2020/3/18,Supported,2020/12/1,2022/11/30
+145,2020/03/18,Small Enterprise Development Agency (SEDA),Security services,Fidelity Security services,Continuity of Service,"R 1,575,802.89","R 606,915.33",R 0.00,2020/3/18,Supported,2020/6/1,2020/12/31
+146,2020/02/11,South African Diamond and Precious Metals Regulator,Provision of office accommodation,Divercity,"New premises not ready for
+occupation","R 9,863,274.84","R 1,263,385.46","R 9,244,929.38",2020/10/02,Not supported,2020/01/09,28/2/2021
+147,2020/01/06,South African Health Products Regulatory Authority,Additional office accommodation,CSIR,"Additional space for Backlog
+Eradication Project Team","R 3,522,236.90","R 195,750.24","R 3,090,000.00",2019/12/30,Not supported,2019/01/08,30/1/2020
+148,2020/03/02,South African National Parks,Provision of short- term insurance,Marsh/indwe,Continuity of Service,"R 24,724,807.48",R 0.00,R 0.00,2020/2/27,Conditional support,2020/03/01,2/29/2022
+149,2020/03/13,South African National Parks,To conduct an asessment on Greatplains application system,Sethewo (Pty) Ltd,Variation order,"R 1,497,300.00","R 495,980.00",R 0.00,2020/3/12,Supported,2018/09/01,31/8/2023
+150,2020/03/18,South African National Parks,Internal audit services,Grant Thornton/BDO,Variation order,"R 8,972,000.00","R 213,892.77",R 0.00,2020/3/18,Not supported,2020/04/01,2020/06/01
+151,2020/01/29,South African National Roads Agency,"Consulting engineering and supervision of the operation and
+maintenance of Huguenot Toll Tunnel",ITS/Tadeson joint venture,"A tender to replace engineer is
+cancelled","R 18,221,212.00","R 7,288,485.00",R 0.00,,Supported,2020/02/01,2020/07/31
+152,2020/01/29,South African National Roads Agency,Operation and maintenance of Huguenot Toll Tunnel,Tolcon Group,"A tender to replace engineer is
+cancelled","R 295,688,315.00","R 7,288,485.00",R 0.00,,Supported,2020/02/01,2020/07/31
+153,2020/01/30,South African National Space Agency (SANSA),Provision of office accommodation,Innovation Hub,Continuity of Service,"R 5,652,473.00","R 13,663,000.00","R 17,611,370.00",2019/12/12,Supported,2020/04/01,2022/06/30
+154,2020/03/24,South African Police Service,Travel management services,Travel with Flair,Continuity of Service,"R 23,877,501.00",500 000 .00,"R 10,000,000.00",2020/3/23,Supported,2020/04/01,2020/04/30
+155,2020/02/18,South African Police Service,"Re-zoning and sub-division application of the town and
+regional planner",TPM Stadsbeplanners,Continuity of Service,"R 144,096.00","R 26,398.60","R 47,880.00",2020/3/18,Supported,Not Stated,Not Stated
+156,2020/02/25,South African Tourism,Commercial Insurance,MiWay,Continuity of Service,437 410.00,"R 104,872.00",R 0.00,2020/2/25,Conditional support,Not Stated,Not Stated
+157,2020/01/10,South African Weather Service,"Verification authentication processes on atmospheric and
+meteorological terminology developed",PanSALB,Continuity of Service,"R 1,117,645.00","R 770,329.00",R 0.00,2020/1/10,Not supported,Not Stated,Not Stated
+158,2020/12/20,State Diamond Trader,Lease of an Office building,Redifine Properties,"The commencement date of the
+construction of new premises has","R 2,472,196.00","R 813,061.00","R 2,344,295.00",2019/12/20,Not supported,2020/01/02,28/2/2021
+159,2020/02/05,StatsSA,CsPro Data Collection System,JICHO,"been delayed
+Scope expansion","R 1,420,250.00","R 4,740,372.00",R 0.00,Not provided,Supported,Date of approval,Not specified
+160,2020/03/02,StatsSA,QLFS Questionnaires,Ren-Form,CAPI and PAPI collection,"R 2,599,479.00","R 499,100.00","R 1,030,400.00",Not provided,Not supported,Not specified,Not specified
+161,2020/03/30,TETA,Provision of fibre optic lines and telephone usage,Thuni Logistics,Competitive bidding in progress,"R 127,680.00","R 365,255.64","R 887,665.20",2020/03/20,Supported,2020/04/01,2020/06/30
+162,2020/01/21,Trans-Caledon Tunnel Authority,"Construction of Phase 2C: Pipeline from De Hoop Dam to
+Steelpoort in Oliphant’s River Water Resources Development
+Project (ORWRDP 2)",Basil Read (Pty) Ltd,Continuity of Service,"R 1,165,000,000.00","R 166,000,000.00","R 402,000,000.00",2020/01/21,Conditional support,Not Stated,Not Stated
+Number,Date Received (yyyy/mm/dd),Entity/Department (Use dropdown List),Project Description,Supplier,Reason for extension,"Original Contract
+Value","Value of Contract
+Extension","Value of previous
+extensions","Award/recommend
+ed by AO/ AA","not supported/not
+supported/Conditional
+supported
+(Use
+dropdown List)","Contract start date
+(yyyy/mm/dd)","Contract expiry
+(yyyy/mm/dd)"
+163,2020/01/21,Trans-Caledon Tunnel Authority,"Support to TCTA during valuation and claim resolution
+process (ORWRDP 2)",Aurecon Ndodana Joint Venture,Continuity of Service,"R 217,000,000.00","R 12,300,000.00","R 160,000,000.00",2020/01/22,Conditional support,Not Stated,Not Stated
+164,2019/12/19,Transnet,"Professional Services Contract For 3 Tunnel Sections
+Beaconhill, Lowlands and Tweede Located on the Natcor Line",RCE,Complete the remaining work,"R 10,056,466.99",R 0.00,R 0.00,2019/12/17,Supported,"1 month, 24 days","1 month, 24 days"
+165,2020/01/29,Transnet,"Security Services- Ports of Richards Bay, Durban, Cape
+Town and Sldanha","Unitrade cc t/a Isidingo
+Fidelity
+Venus",Competitive bidding in progress,"R 21,340,619.76","R 38,375,830.53","R 9,463,744.77",2020/01/29,Conditional support,2020/02/01,2020/03/31
+166,2020/01/28,Transnet,"Security Services - Security Services at Gauteng and North-
+West Provinces to Various Transnet Pipelines (TPL)
+Properties",Sinqobile Equestrian Services (Pty) Ltd,Continuation of scope,"R 39,788,867.00","R 4,517,229.91","R 13,369,059.33",2020/01/24,Conditional support,2020/02/03,2020/08/02
+167,2019/12/19,Transnet,"Professional Services Contract For 3 Tunnel Sections
+Beaconhill, Lowlands and Tweede Located on the Natcor Line",RCE Consultants (Pty) Ltd,Continuity of service,"R 10,056,466.99",R 0.00,R 0.00,2019/12/17,Conditional support,"1 month, 24 days","1 month, 24 days"
+168,2020/01/24,Transnet,Provision of Insurance Brooking Services,Willis South Africa (Pty) Ltd,Continuity of service,"R 45,000,000.00",R 0.00,R 0.00,2020/01/30,Conditional support,2020/02/01,2020/03/31
+169,2019/12/17,Transnet,Provision of Occupational Health Services,Medicross,Change in operational requirements,"R 303,599,748.00","R 73,861,874.00",R 0.00,2020/03/17,Conditional support,Date of approval,2021/02/28
+170,2019/12/19,Transnet,"Manufacture, Transport and Installation of Pre-Stressed
+Concrete Bridge at Vredendal",Mathomomayo Investment Holdings,Additional scope of work,"18,176,456.31",R 0.00,R 0.00,2019/12/17,Conditional support,2019/12/23,2020/11/29
+171,2020/03/28,Transnet,Insurance Broking Services,"Willis South Africa (Pty) Ltd and Marsh (Pty)
+Ltd","Continuation of service and to test
+the market","45,000,000.00",not stated,not stated,2020/03/27,Conditional support,2020/04/01,2020/09/30
+172,2020/03/28,Transnet,Refined Petroleum Fuel to Transnet Soc Limited,"Women of Africa, Afric Oil & KZN Oils, NRW
+Logistics, Yem Yem Petroleum, Gulfstream
+Burutho Gas & Thokaina 21","Continuation of service and to test
+the market","15,500,000,000.00","645,967,089.00","R 13,248,490,078.00",2020/03/28,Conditional support,2020/04/01,2020/06/30
+173,2020/02/24,Transport,Fleet Management services,Phakisa World,Continuity of Service,R 0.00,"R 180,194,320.05","R 1,756,065,955.00",2020/2/24,Conditional support,2020/2/29,2021/2/28
+174,2020/02/18,UIF,"Implementation of new GRAP standards and Financial
+Disclosure transactions",Altimax,Scope expansion,"R 976,500.00",,"R 1,874,250.00",Not provided,Supported,2019/05/31,2022/04/30
+175,2020/02/17,UIF,"Development,support and maintenance of uFilling and Virtual
+office",Interfile,Scope expansion,"R 48,191,040.24","R 1,470,662.55","R 12,757,659.26",Not provided,Supported,2020/04/01,2020/06/30
+176,2019/12/19,Umgeni Water,"Vulindlea Bulk Water Supply Scheme: Howick West to
+Reservoir 2 Pipeline Route",KSEMS Consulting,Address comments from DEA,"R 365,200.00","R 63,986.00","R 279,954.00",2020/01/10,Not supported,Not Stated,Not Stated
+177,2020/03/18,Umgeni Water,Construction of a 12Ml Reservoir at Ozwathini (Phase3.3c),WK Construction SA (WK SA),"Cost adjustments to accommodate
+new rates submitted by the Local
+CPG Partner","R 5,431,084.61","R 1,746,908.44","R 3,684,176.17",2020/03/04,Not supported,Not Stated,Not Stated
+178,2020/03/23,USAASA,Broadband connectivity for under serviced sites,Telkom-BCX,"COVID 19 outbreak resulting in
+increasing demand on connectivity",Not stated,Not stated,Not stated,Not provided,Supported,Date of approval,Not Stated
+179,2020/01/02,Wholesale and Retail SETA,Appeal: Office space,"Zuikerkop Group of Companies (Bronze door
+properties)",Continuity of service,"R 948,010.79","R 272,846.12","R 2,957,601.35",2020/4/1,Conditional support,2020/04/01,9/30/2020
+180,2020/01/03,Wholesale and Retail SETA,Appeal: Office space,Growth Point,Continuity of service,"R 1,944,022.47","R 429,173.65","R 5,108,347.51",2020/4/1,Conditional support,2020/04/01,9/30/2020
+181,2020/01/04,Wholesale and Retail SETA,Apeaal: Office space,Kevin Paul Properties,Continuity of service,"R 541,244.12","R 206,752.26","R 1,723,282.24",2020/4/1,Conditional support,2020/04/01,9/30/2020
+182,2020/01/05,Wholesale and Retail SETA,Appeal: Office space,Colosseum Century City ( Haevimax Pty Ltd),Continuity of service,"R 1,652,205.83","R 613,688.66","R 6,097,013.25",2020/4/1,Conditional support,2020/04/01,9/30/2020
+183,2020/01/06,Wholesale and Retail SETA,Appeal: Office space,Redefine,Continuity of service,"R 15,115,883.98","R 5,578,034.00","R 29,896,280.99",2020/4/1,Conditional support,2020/04/01,9/30/2020
+184,2020/01/07,Wholesale and Retail SETA,Appeal: Office space,Mantombi Mapanzela,Continuity of service,"R 691,514.79","R 325,596.81","R 2,092,038.80",2020/4/1,Conditional support,2020/04/01,9/30/2020
+185,2020/01/08,Wholesale and Retail SETA,Appeal: Office space,Elegant Line Properties,Continuity of service,"R 1,081,517.28","R 304,142.56","R 3,063,097.90",2020/4/1,Conditional support,2020/04/01,9/30/2020
+186,2020/01/09,Wholesale and Retail SETA,Appeal: Office space,Green Willows (Thomas Family Trust),Continuity of service,"R 588,650.40","R 538,578.35","R 1,138,990.51",2020/4/1,Conditional support,2020/04/01,9/30/2020
+187,2020/02/26,Wholesale and Retail SETA,IT Systems,Solugrowth,Continuity of Service,"R 16,929,000.00","R 2,778,309.18","R 35,593,539.46",2020/2/26,Supported,2020/04/01,2020/8/30
+188,2020/03/02,Wholesale and Retail SETA,IT Infrastructure Services,Internet Solutions,Continuity of Service,"R 7,000,126.10","R 14,000,252.20",R 0.00,2020/2/28,Not Supported,2020/04/01,2022/03/31
+189,2020/03/02,Wholesale and Retail SETA,"ERP Systems Implementation, Maintenance & Support",Namiti Technologies and Tipp Focus,Continuity of Service,hourly rate,"R 9,300,000.00",R 0.00,2020/2/28,Not Supported,2020/04/01,2021/3/31

@@ -1,0 +1,701 @@
+Number,Department/ Entity,Project Description,Supplier,Reason for extension,"Original Contract
+Value","Value of Contract
+Extension","Value of previous
+extensions","Award/
+Recommended date
+by AO/AA","not Supported/not
+Supported",Contract Start Date,Contract End Date
+1,ACSA,Maintanance and Support of CCTV,Sizwe Africa IT Group (Pty) Ltd,"Competitive bidding process in
+progress",91 110 823.31,1 133 022.00,"145 949 074,00",Not dated,Supported,2016-12-01,2017-07-31
+2,ACSA,Maintanance and Support of CCTV,Datacentrix (Pty) Ltd,"Competitive bidding process in
+progress",46 696 099.74,28 104 000.00,"62 752 698,00",Not dated,Supported,2016-12-01,2017-11-30
+3,ACSA,Maintanance and Support of CCTV,"Risk Detection System ( Pty)
+Ltd","Competitive bidding process in
+progress","108 000,00",85 824.60,163 560.00,Not dated,Supported,2016-11-01,2017-06-30
+4,ACSA,Maintenance and support (CCTV),Baeletsi Technologies,"Delays in competitive bidding
+process","756 000,00","42 564 721,00","158 130 248,00",Not dated,Supported,2016-12-01,2017-07-31
+5,ACSA,Maintenance of cabling infrastructure,Infrasol (Pty) Ltd,"Delays in competitive bidding
+process","282 246 196,00","475 906 223,00","0,00",Not dated,Supported,2016-12-01,2017-07-31
+6,ACSA,Maintenance and support services,"Mobeni Integrated System
+(KSIA)","Delays in competitive bidding
+process","2 172 612,00","1 133 022,00","2 102 200,00",Not dated,Supported,2016-12-01,2017-07-31
+7,ACSA,Maintenance and support of CCTV,"Mobeni Integrated System
+(ORTIA)","Delays in competitive bidding
+process","4 408 007,00","198 224 287,00","913 149 322,00",Not dated,Supported,2016-12-01,2017-07-31
+8,ACSA,"To provide four main infrastructure
+service towers",Puleng Technologies (Pty) Ltd,"Delays in competitive bidding
+process","4 277 131 971,00","11 567 303 874,00","91 009 154,00",Not dated,Supported,2016-12-01,2017-07-31
+9,Amatola Water,"Provision of external auditing
+services",Ernst & Young,Unforeseen project overruns,"1 814 652,00","2 166 633,00","0,00",2013-09-20,Conditional support,2013-10-01,2016-09-30
+10,BANKSETA,"Provision of VoIP at the regional
+offices",Neotel,"IT infrastructure was affected by the
+changes in BANKSETA which
+resulted in high utilisation of
+bandwidth","622 029,60",164 593.20,"0,00",2016-07-26,Supported,2016-04-01,2016-03-31
+11,Broadband Infraco,"Modification of existing project
+management co-source.","Africa-One consulting and
+Research",Continuity of service,"980 000,00","3 500 000,00","0,00",2016-10-18,Supported,2016-11-01,18 Months
+12,CATHSSETA,Consultancy services,Motseki Business Consulting,"To allow for the contunuity of the
+services","3 008 787,00","2 987 000,00","5 157 920,00",2016-09-02,Not Supported,2016-11-01,2017-04-30
+13,CATHSSETA,Consultancy services,Tenox Management,"To allow for the contunuity of the
+services","3 391 500,00","3 517 470,00","5 813 000,00",2016-09-02,Not Supported,2016-11-01,2017-04-30
+14,CBE,Travel Management Services,Nexus Travel,"To allow National Treasury to
+finalise the transversal contract",1 800 000.00,604 000.00,Not stated,2016-10-26,Supported,2016-11-01,2017-03-31
+15,CCMA,Office accomodation,"Olitziki Properties (OPH) City
+Properties",Continuity of service,"49 300 857,06","0,00","0,00",2016-08-16,Supported,2016-11-24,5 Years
+16,CCMA,"Financial Management and Supply
+Chain Management Information
+solution",Isitshixo Business Solutions,Continuity of service,"1 684 349,32","513 597,36","0,00",2016-12-02,Conditional support,2014-04-04,2017-03-31
+17,CIDB,"to provide VPN Hosting and Internet
+services on a month-to-month basis.",Telkom SOC SA,"To allow for the contunuity of the
+services","6 853 327,83","944 463,88","0,00",17/11/2016,Supported,Month to month,Month to month
+18,COGTA,"Renew the hardware maintenance
+support contract",Hewlett Packard (HP),Continuity of service,"0,00","1 217 768,00","0,00",2016-10-25,Supported,Not stated,Not stated
+19,COGTA,Renewal of the library subscriptions,"Juta, Sabinet, LexisNexis,
+Parliamentary Monitoring
+Group, South African Institute
+of Race Relations and EBSCO",Continuity of service,"0,00","3 611 864,00","0,00",2016-10-25,Conditional support,Not stated,3 years
+20,Council For Geoscience,Protection Services,Sekanani,Additional guards required,"2 303 460,00","2 122 092,00","0,00",2016/15/11,Supported,2016-12-01,2018/31/10
+21,Council For Geoscience,Legal costs,Werksman Attorneys,Change in the scope of work,"94 050,00","263 340,00","0,00",2016/29/11,Supported,Ongoing,Ongoing
+22,Council on Higher Educatio,nProgramme Acreditation Review,Neil Butcher & Associates (NBA,")
+Allows for the continuity of service","81 200,00","165 300,00","0,00",2016/29/04,Supported,2016-10-12,2016-11-12
+23,"Council on Higher
+Education",Conference,Birchwood Hotel,"The number of delegates attending
+the conference increased","111 740,00","21 000,00","0,00",2016-08-02,Supported,2016-08-23,2016-08-28
+24,"Council on Higher
+Education","strategic planning project within the
+CHE",Neil Butcher & Associates,"To reconceptualise the CHE's audit
+mandate","81 200,00","165 300,00","0,00",2016-04-29,Supported,2016-10-12,2016-11-12
+25,CSIR,"Application development of DBA
+skills and PeopleSoft",Britehouse,Ensure business continuity,"5 634 800,00","2 620 800,00","0,00",2016-11-01,Conditional support,2016-12-01,2017-03-31
+26,CSIR,System administration skills,DATACENTRIX,Ensure business continuity,"1 916 160,00","582 045,00","0,00",2016-11-01,Conditional support,2016-12-01,2017-03-31
+27,CSIR,Field support engineers,Gijima,Ensure business continuity,"10 486 392,00","2 861 153,00","0,00",2016-11-01,Conditional support,2016-12-01,2017-03-31
+28,DBSA,Innovation Academy,Red Fox Ideation,Continuity of service,"927 000,00","396 637,11","0,00",2016-10-31,Conditional support,2016-11-01,2016-01-31
+29,Department of Transport,"Marine pollution prevention and
+salvage operation",Smit Amandla Marine,"Competitive bidding process in
+progress",43 400 000.00,35 000 000.00,"0,00",2016-09-14,Supported,2016-10-01,2017-02-28
+30,DPSA,Off-site records storage,Archiv Systems,Continuity of service,"398 939,25","110 846,08","0,00",2016-10-27,Conditional support,Once off,Once off
+31,DPSA,Printing Annual Performance Report,Tahuti Trading,Continuity of service,"394 680,00","57 150,36","0,00",2016-10-14,Supported,Once off,Once off
+32,DPSA,"Request for variations for travel with
+flair",Travel with Flair,"Compliance with National Treasury
+directive","90 000 000,00","20 000 000,00","30 000 000,00",2016-12-12,Supported,2017-02-01,2017/06/31
+Number,Department/ Entity,Project Description,Supplier,Reason for extension,"Original Contract
+Value","Value of Contract
+Extension","Value of previous
+extensions","Award/
+Recommended date
+by AO/AA","not Supported/not
+Supported",Contract Start Date,Contract End Date
+33,"Eastern Cape Provincial
+Treasury",Unified Communications and Solution,Dimension Data,"Competitive bidding process in
+progress",9 405 680.35,953 790.95,"0,00",2016-10-19,Supported,2017-02-01,2018-03-31
+34,Environmental Affairs,"To conduct compliance audit (phase
+two) on the implementation of the
+integrated industry waste tyre
+management plan",Isolveit Consultant (Pty) Ltd,"To allow for the contunuity of the
+services",555 180.00,342 000.00,Not stated,2016-09-21,Supported,Not stated,Not stated
+35,Environmental Affairs,"Venue hire - Protection of the
+People’s Republic of China (PRC)",Premier Hotel,"The number of participants
+increased from 20 to 30",20 250.00,8 175.00,Not stated,2016-08-01,Supported,Once off,Once off
+36,Environmental Affairs,"The development of the
+Environmental Programmes
+Management System(EPMS)",SITA,To allow for continuity of services,1 541 280.00,1 540 000.00,Not stated,2016-10-03,Supported,Once off,Once off
+37,Environmental Affairs,"Electronic Communication Tool (the
+EMI Communicator) for the
+Environmental Management
+Inspectorate",D6 Technology,Sole provider,41 049.00,26 528.74,Not stated,2016-10-25,Supported,Once off,Once off
+38,Environmental Affairs,"Services rendered for referal of
+dispute to the bargaining council","Meridian Specialised Skills
+Institute of S.A","To allow for the contunuity of the
+services","100 000,00","300 000,00","0,00",2016-07-06,Supported,2016-07-06,2016-08-17
+39,Environmental Affairs,"Cost benefit analysis for Air Quality
+Management in South Africa",Mabu Management Solutions,"The existing model was not
+compatible.","1 888 980,00","1 003 884,00","0,00",2016-07-06,Supported,2016-08-01,2016-08-01
+40,Environmental Affairs,"the provision of advisory services and
+technical support",McKinsey Consulting,"To provide an additional stream on
+Rhino Conservation","14 400 000,00","4 800 000,00","0,00",2016-07-04,Supported,2016-09-01,2016-10-30
+41,Eskom,"Provision of professional quantity
+surveying services at Kusile Power
+Station",Durapi Consulting,Continuity of sevices,"79 079 536,00","56 841 167,00","37 758 546,00",2016-11-22,Supported,Not stated,Not stated
+42,Eskom,"Construction of terrace underground
+facilities at Kusile Power Station",Esor Construction (Pty) Ltd,"Increase quantities due to additional
+of scope","311 106 943,00","382 208 460,00","1 098 347 892,00",2016-11-11,Conditional support,Not stated,Not stated
+43,Eskom,"Supply of 3 PSA Nitrogen Generation
+Plant for Kusile Power Station",Nugen Technologies (Pty) Ltd,"Expansion of project duration due to
+modification of scope","18 404 400,00","0,00","0,00",2016-11-17,Conditional support,Not stated,Not stated
+44,Eskom,"Provision of raw water to Eskom
+power stations","Department of Water and
+Sanitation",Continuity of service,"3 394 000 000,00","1 844 811 849,00","1 301 534 473,00",2016-12-09,Supported,Not stated,Not stated
+45,Eskom,"Manufacture, supply and delivery of
+air heaters.",Howden Africa (Pty) Ltd,Funds depleted before expiry period.,"298, 800,000.00","218, 300,000.00","185 500 000,00",2016-09-26,Conditional support,04/10/2016,Not stated
+46,Eskom,"Upgrading of four transformers for
+Van der Bilj SS controller within
+Gauteng Operating Unit",Rotek Industries SOC,"Additional scope of work still need to
+be executed.","1 162 248,83","3 230 452,05",n/a,N/A,Supported,Not stated,Not stated
+47,Eskom,National Security Services,"L.L Security Services cc,
+Maximum Security Services,
+and Double Barrel Security
+Services cc","Additional sites without security are
+being exposed to vandalism due to
+absence of security.","65 037 601,16","41 601 695,05",None,2016-08-18,Supported,6 months,Not stated
+48,Eskom,"Electrification and minor reticulation
+projects on an as and when required
+basis.",35 contractors on the panel,"Project delays due shortage of
+Eskom trucks.","100 000 000,00","142 571 411,93","70 772 601,46",2016-09-26,Conditional support,Not stated,Not stated
+49,Eskom,Supply of 600 000 tons of coal,Sudor Coal (Pty) Ltd.,"Competitive bidding process in
+progress","1 586 995 200,00","162 486 000,00","1 598 391 048,00",2016-10-27,Conditional support,3 months,Not stated
+50,Eskom,"Panel of suppliers for strategic
+business management",Various Contractors,Additional projects identified,"605 000 000.00 (Excl
+VAT)","1 200 000 000.00
+(Excl VAT)",None,2016-10-27,Conditional support,3 years,Not stated
+51,Eskom,"Supply of coal to Klipfontein ,
+Leeupoort Colliers and Mooifontein
+Beneficiation Plant",Iyanda Mining (Pty) Ltd.,"Competitive bidding process in
+progress","506 018 266,67","93 656 544,67","321 558 500,67",2016-10-13,Conditional support,1 Month,Not stated
+52,Eskom,"Construction, installation, erection
+and commissioning of miscellaneous
+building",Basil Read (Pty) Ltd,Delays in construction,"521 471 349,41","740 887 566.21
+(Excl VAT)","953 270 107,91",2016-10-06,Conditional support,24 Months,Not stated
+53,Eskom,"Construction services for major
+reticulation contracts for the Gauteng
+Operating Unit",Various Contractors,Funds depleted before expiry period.,"50 000 000,00","12 420 176,47","248 403 529,36",Not specified,Conditional support,Not stated,Not stated
+54,Eskom,"Combustion of waste terrace at
+Kusile Power Station",WBHO Construction (Pty) Ltd,Revised Bill of Quantities,"656 204 475,81","213, 972,010.48","1 494 366 263,90",2016-11-11,Conditional support,60 Months,Not stated
+55,Eskom,"Extension of construction of various
+buildings at Medupi Power Station",Aveng Africa Limited,"Extension of duration to assess
+completion of all contractual
+obligations","232 211 127,00","Time only no value
+equied appoval","807 906 320,00",2016-11-24,Supported,18 Months,Not stated
+56,Eskom,"Maintenance and outage repair
+services for boiler pressure parts at
+coal fired power stations","Actom, Babcock and
+Steinmuller","Allow sufficient time for competitive
+bidding process","740 000 000,00","2 505 875 132,00","3 171 875 133,19",2016-11-30,Conditional support,12 Months,Not stated
+57,Eskom,"Supply of Coal to Komati Power
+Station",Koornfontein Mines (Pty) Ltd,Continuity of service,"341 544 200,00","6 955 200 000,00","87 093 771,00",N/A,Conditional support,Not stated,Not stated
+Number,Department/ Entity,Project Description,Supplier,Reason for extension,"Original Contract
+Value","Value of Contract
+Extension","Value of previous
+extensions","Award/
+Recommended date
+by AO/AA","not Supported/not
+Supported",Contract Start Date,Contract End Date
+58,Eskom,"Technical support and maintenance
+of air heaters and draught plant fans",Howden (Pty) Ltd,Continuity of service,"655 300 000,00","674 800 000.00
+(Excl VAT) and 67
+400 000.00 for any
+unforeseen
+contingencies (Excl
+VAT)","1 372 900 000,00",2016-09-26,Conditional support,2016-09-26,6 months
+59,Eskom,"Design, manufacture, supply,
+installation, commissioning and
+testing, control and instrumentation
+system for units 1 to 6 and the
+balance of plant at Kusile Power
+Station Project (P21)",ABB South Africa,Previous contractors terminated,"2 522 783 814,38","550 0044 229.00
+with an additional
+contingency fee of
+30 000 000.00",NONE,Not specified,Conditional support,Not stated,Not stated
+60,Eskom,Physical security services in Limpopo,Various,"Competitive bidding process in
+progress",70 503 708.88,31 020 156.69,"0,00",2016-11-24,Conditional support,2016-12-01,2017-03-30
+61,ESKOM,"Expansion of contract for general
+good,services for Grootvlei station",Not stated,Project value under estimated,"39 544 817,20","23 409 758,00","5 604 430,00",2016-07-11,Supported,Not stated,Not stated
+62,Eskom,"Modification of contract for
+manufacture, testing and supply of
+estimated quantities of Circuit
+Breakers",Actom High Voltage (Pty) Ltd,"Additional stock required to restore
+power supply","482 429 232,00","13 639 554,54","786 226 998,00",Not stated,Supported,Not stated,Not stated
+63,Eskom,"Extension of contract for dust & noise
+monitoring services at Kusile",Gijima Holdins (Pty) Ltd,"Competitive bidding process in
+progress","2 506 692,69","1 221 281,45","0,00",2016-11-24,Conditional support,Not stated,Not stated
+64,Eskom,"Extension of manufcturer, testing,
+supply, delivery, offloading and
+erection of estimated quantities of 6.6-
+132KV Voltage transformers","Instrument Transformer
+Technologies (Pty) Ltd","Competitive bidding process
+unsuccesful","19 809 181,89","19 809 181,89","0,00",2016-12-14,Conditional support,2015-01-11,2016-10-31
+65,Eskom,"Construction, installation, erection
+and commissioning of miscellaneous
+building",Basil Read (Pty) Ltd,Delays in construction,"227 304 374,00","0,00","511 449 309,30",2016-11-24,Supported,2017-01-01,2017-12-31
+66,Eskom,"Supply and delivery of Gas for
+Research, Testing & Development
+(Rosherville)",Air Liquide,Incorporation of additional need,"2 213 900,00","892 204,00","0,00",Not stated,Supported,2016-09-22,2018-08-21
+67,Eskom,"Supply, delivery and support services
+for laptops,desktops and slates",Mustek (Pty) Ltd,"Escalating business needs for
+computer equipments.","38 500 000,00","60 258 823,00","0,00",2016-05-12,Not Supported,2016-07-18,2017-07-17
+68,Eskom,"Modification of an Infrustructure at
+Medupi Power Station",Actom (Pty) Ltd,"Contactor delayed due to other
+contract on site","735 302 678,00","582 397 111,00","1 551 557 012,42",2016-10-10,Conditional support,Not stated,6 years
+69,Eskom,"Construction services for Minor
+Reticulation contracts within the
+Gauteng Operating Unit",Various Contractors,"Funds depleted before project
+completion","75 000 000,00","203 013 259,31","0,00",2016-10-31,Conditional support,Not stated,36 months
+70,Eskom,"Loading of coal at the Blinkpan Rail
+Siding","Makoya Supply Chain Holdings
+(Pty) Ltd","Contract value depleted due to non-
+perfomance by other mines","166 655 600,00","53 835 600,00","13 000 000,00",2016-12-09,Conditional support,Not stated,Not stated
+71,Eskom,"Coal handling services at Tutuka
+Coal Terminal",Transnet Freight Rail,Continuity of service,"127 500 000,00","10 800 000,00","0,00",2016-12-09,Supported,Not stated,Not stated
+72,Eskom,"Unit board replacement at Palmiet
+Pumped Storage Scheme.",Siemens (Pty) Ltd,Continuity of service,"9 561 336,00","5 313 080,87","0,00",2016-12-12,Conditional support,2016-12-18,2017-08-12
+73,Eskom,Construction of water treatment plant,Alula Water (Pty) Ltd,"Outstanding work remaining due
+access challenges","718 114 780,00","120 996 405,00","0,00",2016-12-14,Conditional support,2016-12-30,2019-03-31
+74,Eskom,"Provision of Fuel Oil and Sootblower
+Plant Maintenance","Clyde Bergmann Africa (Pty)
+Ltd",Continuity of services,"32 800 001,57","10 902 731,64","0,00",2016-12-14,Conditional support,Not stated,Not stated
+75,Eskom,"Supply of milling plant maintenance
+services from unit 1 to 6 at Duvha
+Power Station",Steinmuller Africa (Pty) Ltd,"Competitive bidding process in
+progress","0,00",Not stated,"0,00",2016-12-15,Conditional support,2016-12-28,2017-03-27
+76,Eskom,"Provision of Biometric Access Control
+Software, Equipment/Materials and
+Consumables at Medupi Power
+Station project","Honeywell Automation and
+Control Solutions (SA) (Pty) Ltd",Additional scope of work.,"9 967 051,10","15 581 432,57","0,00",2016-12-15,Supported,2016-04-01,2019-03-31
+77,Eskom,"Provision of security services in the
+Welom Area, Free State Operating
+Unit",Phiriphiri Security Services,Continuity of service,"23 180 584,15","5 727 422,98","26 704 909,07",2016-12-15,Not Supported,2017-01-01,2017-03-31
+78,Eskom,"Provision of Forensic and Anti-
+Corruption consultation services",Panel of service providers,Backlog of forensic services,"30 000 000,00","30 000 000,00","0,00",2016-12-15,Conditional support,Not stated,2019-03-30
+79,Eskom,"Transportation of raw and portable
+water from Kendal Power Station to
+Kusile Power Station project","Tamukelo Business Enterprise
+cc","Competitive bidding process in
+progress","63 534 415,00","14 694 095,52","0,00",2016-12-15,Supported,2016-12-22,4 Months
+80,Eskom,"Chimneys and silos at Medupi Power
+Station",Karrena-Concor Joint Venture,"Competitive bidding process in
+progress","797 010 242,00","19 867 486,60","202 545 752,00",2016-12-14,Conditional support,2017-07-07,2018-07-07
+81,Eskom,Security services,Born to protect security,"Competitive bidding process in
+progress","13 689 423,56","5 339 428,14","32 794 327,52",Not stated,Supported,2016-11-01,2017-04-30
+Number,Department/ Entity,Project Description,Supplier,Reason for extension,"Original Contract
+Value","Value of Contract
+Extension","Value of previous
+extensions","Award/
+Recommended date
+by AO/AA","not Supported/not
+Supported",Contract Start Date,Contract End Date
+82,Eskom,"Construction of Miscellaneous
+Structure at Kusile Power Station","Stefanutti Stock Basil Read
+Joint Venture (SSBR-JV)",Revised design and measurement,1 632 321 742.11,1 183 068 984.06,739 849 498.47,2016-11-11,Conditional support,,19 Months
+83,Eskom,Catering Services,Lephalale Site Services,"Increase number of staff working on
+site",221 046 709.94,189 829 034.77,"0,00",2016-11-11,Supported,Not stated,Not stated
+84,Eskom,"Maintenance KRUSS of K11
+Tensiometers.",Advance Laboratory Services,Calibration of Kruss equipment,92 207.25,984 965.20,"0,00",2016-11-17,Supported,Not stated,Not stated
+85,Eskom,Supply of coal,Inyanga Mining (Pty) Ltd,"Competitive bidding process in
+progress",506 018 266.67,"2 816 148 764,00",321 558 518.60,2016-11-15,Conditional support,Not stated,Not stated
+86,Eskom,"Planning, Scheduling tasks, Cost
+Engineering, Control tasks and
+Control with verification of progress
+site.",RPS Engineering,Continuity of service,"123 729 840,00","68 362 292,00","0,00",2016-11-22,Conditionally Supported,2016-12-31,2018-03-18
+87,Eskom,"Provision of engineering project
+support and facilitate upgrade of Kriel
+Fabric Filter Plant","Babcock & Wilcox Power
+Generation Group",Inspection by contractor outsatnding,139 397 259.82,"0,00",19509076.69,2016-12-15,Supported,Not stated,Not stated
+88,Eskom,"Construction of Gilead 66Vk and
+Knobel Chloe 66Kv Feeder Bays",High Voltage Technology,Inspection by contractor outsatnding,23 016 957.98,"0,00",383 979.08,2016-12-15,Supported,Not stated,Not stated
+89,Eskom,"Provision of equipment, materials,
+consumables and services required
+to complete site work",Stefanutti Stock and Izazi,Increased quantitities,211 419 990.62,425 780 104.16,"0,00",2016-11-11,Conditional support,Not stated,Not stated
+90,Eskom,Security services,Born to protect security,"Competitive bidding process in
+progress","13 689 423,56","5 339 428,14","32 576 978,92",Not stated,Supported,2016-10-20,6 Months
+91,Eskom,"Refurbishment and upgrade of
+Eletrostatic Precipitators at Matla
+Power Station",Hamon SA (Pty) Ltd,Continuity of service,331 564 637.30,218 757 930.68,30 093 699.37,2016-09-06,Supported,2016-07-01,2019-12-31
+92,ETDP SETA,Network support services,Projects Unlimited,Single source,Not stated,"88 920,00","0,00",2016/21/10,Supported,2016-07-20,2016/20/11
+93,ETDP SETA,"cleaning up and rendering support
+service",Delloitte Consulting (Pty) Ltd,Single source,"2 640 000,00","7 955 245,00","0,00",2016/21/07,Supported,2016-08-30,2018-07-31
+94,FASSET,Advisory Services,Ligwa Advisory Services,"To allow for the contunuity of the
+services","500 000,00","374 235,00",1 773 065,2016-07-18,Not Supported,Not stated,Not stated
+95,Film and Publication Board,"Bar-code and tag registration as well
+as classification",Document Warehouse,Change in the scope of work,"192 745,68","41 389,30","0,00",2016-10-10,Supported,Not stated,Not stated
+96,FoodBev SETA,Refurbishment costs,Growthpoint Properties,"Landlord has own list of suppliers for
+the refurbishment","4 500 000,00","952 474,49","0,00",2016/20/10,Supported,2015-10-01,2018/31/10
+97,Human Settlements,"Internal Audit, Risk Management and
+Forensic Management",Sekela Consulting (Pty) Ltd.,"Finalisation of all outstanding cases
+and implementation of interventions.","11 729 025,00","13 629 036,44","33 284 683,16",2016-09-16,Conditional support,Not stated,Not stated
+98,"Justice and Constitutional
+Development",Security services,"Fidelity Security, Born to
+Protect, Linda Security and
+Mabotwane Security","Competitive bidding process in
+progress",782 000 000.00,41 201 650.29,397 503 607.00,2016-10-12,Supported,2016-11-01,2016-11-30
+99,"Justice and Constitutional
+Development",Security services,"Fidelity Security, Born to
+Protect, Linda Security and
+Mabotwane Security","Competitive bidding process in
+progress",782 000 000.00,20 700 831.24,438 705 257.20,2016-10-12,Supported,2016-12-01,2016-12-15
+100,Legail Aid,Security services,Ewings Security,"Competitive bidding process in
+progress",29 489.63,29 489.63,"0,00",2016-10-05,Supported,2016-10-01,2016-10-31
+101,Mineral Resources,Mobile Services,MTN (Pty) Ltd,"The delays in appointing a new
+service provider","14 730 847,72","4 119 942,40","0,00",2016/31/10,Supported,2016-01-11,2017/30/03
+102,Mineral Resources,"Support of the SAMRAD and
+SAMSHA online system",Moneo Professional Services,To allow for the continuty of services,Not stated,"1 008 000,00","246 240,00",2016/27/10,Supported,Not stated,Not stated
+103,MISA,Provision of Artisan training,Majuba TVET,Single source,"3 286 830,00","10 240 365,00","9 340 807,00",2016-11-15,Conditional support,Not stated,Not stated
+104,MISA,Provision of Artisan training,Vuselela TVET,Single source,"2 583 571,00","4 734 000,00","3 264 000,00",2016-11-18,Conditional support,Not stated,Not stated
+105,MISA,"Provision of due diligence and vetting
+services",Phakwe/Motheo JV,Expansion of scope,"3 378 000,00","181 600,00","0,00",2016-12-13,Not Supported,Not supported,Not supported
+106,MISA,License renewal,Sage Pastel,Continuity of service,"0,00","90 831,00","0,00",2016-12-06,Supported,2016-12-01,2017-11-30
+107,National Skills Fund,TVET College site at Nkandla,Rambros Construction CC,Not Stated,"194 019 881,00","16 953 099,00","38 803 976,00",Not stated,Not Supported,Not stated,Not stated
+108,National Skills Fund,TVET College site Bhanmbanana,"Mamli Projects JV Phumi
+Trading",Not stated,"167 427 900,00","33 485 580,00","2 737 225,00",Not stated,Not Supported,Not stated,Not stated
+109,National Treasury,Extension of lease agreements,BPDC Investments,Continuity of service,"2 486 003,24","2 709 744,24","0,00",2016-11-10,Supported,2017-05-01,2018-04-30
+110,NDoH,Supply of vaccines in SA,"Biologicals and Vaccine
+Institute of Southern Africa
+(Pty) Ltd","Allow time to finalise bidding
+process",Not stated,"6 159 741 200,00","0,00",2016-11-21,Supported,2017-01-01,2018-12-31
+111,NDoH,"Provision of technical assistance to
+the TB Control and Management
+Cluster - Global Fund Finance Unit",VP Health Systems,Continuity of service,"365 940,00","182 970,00","0,00",2016-10-01,Supported,2016-10-01,2016-12-30
+112,NDoH,"Finalisation of VAT returns for the
+Global Fund Grant",Nexia SAB&T,Continuity of service,"456 912,00","51 300,00","0,00",2016-10-25,Supported,2016-10-01,2016-10-31
+113,NDoH,"Performance management of general
+practitioners","Professional Development
+(Pty) Ltd",Testing a capitation model,"26 606 218,00","3 146 769,00","0,00",2016-10-12,Conditional support,2016-11-20,2017-03-31
+114,NPA,Lease of office space,Different houses,Continuity of service,"0,00","5 787 201,00","0,00",2016-09-30,Supported,2016-08-01,2017-03-31
+Number,Department/ Entity,Project Description,Supplier,Reason for extension,"Original Contract
+Value","Value of Contract
+Extension","Value of previous
+extensions","Award/
+Recommended date
+by AO/AA","not Supported/not
+Supported",Contract Start Date,Contract End Date
+115,NRF,"assembly intergration and testing of
+1000 hybrid memory cube (HMC)
+mezzanine",Peralex,Delay in delivery of HMC,"8 948 634,00","1 808 514,00","0,00",2016-10-24,Supported,Not stated,Not stated
+116,NRF,Replacement of Chiller plant,"BVI Consulting Engineers
+Western Cape (Pty) Ltd",Expansion of scope,"504 354,01","310 415,67","0,00",2016-11-15,Conditional support,Not stated,Not stated
+117,NRF,Lease of office space,"Excellerate Real Estate
+Services","Leased building sold without
+notification, urgent need for office
+space","28 783 477,73","9 987 533,25","0,00",2016-12-20,Supported,2017-04-01,2018-03-31
+118,PetroSA,"Provision of DSTV service for
+employees",Multichoice (Pty) Ltd,Expansion of scope,"31 936,80","10 021,78","0,00",2016-10-06,Supported,2016-04-01,2017-03-31
+119,PetroSA,"Provision of software products with
+functionality that allows plotting of
+large files","Bentley Systems International
+Ltd",Sole source,"1 449 775,05","410 783,80","0,00",2016-10-06,Supported,1997-08-06,Indefinitely
+120,PetroSA,Provision of Bulldog software,"Comfin Software and
+Consulting Services",Expansion of scope,"890 006,00","50 334,00","0,00",2016-10-20,Supported,2016-10-16,2017-04-15
+121,PetroSA,"Provision of a QPR software for a
+business process modelling and
+management tool.","LBR Engeneering t/a Executive
+Business Solutions (Pty) Ltd",Sole source,"3 187 063,00","121 800,00","1 907 191,00",2016-10-20,Supported,2016-05-01,2017-04-30
+122,PetroSA,"Provision of a maintenance service
+for the fuel management system","On Track Innovation Africa
+(Pty) Ltd",Sole supplier,"2 096 795,00","343 200,00","0,00",2016-10-21,Conditional support,2016-10-15,2018-10-14
+123,PetroSA,"Provision of a paradigm interprete
+software licences",Paradigm Geophysical B.V,Expansion of scope,"42 000,00","36 734,00","309 548,00",2016-10-27,Supported,2016-11-01,2017-10-31
+124,PetroSA,"Provision of audit service on financial
+modeling",Kuhumelela Advisory Services,Expansion of project duration,"25 000,00","10 250,00","0,00",2016-10-03,Conditional support,2016-10-07,2016-10-10
+125,PetroSA,"Renewal of DMSI condition
+monitoring software",RCMI (Pty) Ltd,Sole source,"206 923,00","66 600,00","0,00",2016-11-08,Conditional support,2016-12-01,2017-11-30
+126,PetroSA,"Provision of specialist resource for
+EDI cross application module",DLK Group,Continuity of service,"108 000,00","148 944,00","0,00",2016-11-21,Conditional support,2016-10-01,2016-12-31
+127,PetroSA,"Provision of a web vulnerability
+scanner software",Acunetix Limited,Sole source,"5 995,00","5 498,00","5 000,00",2016-11-22,Conditional support,2016-08-01,2017-07-31
+128,PetroSA,"Provision of bulk liquid storage
+facilities in Europe for Mosspar M","Vopak Terminal Chemiehaven
+B.V",Expansion of scope,"34 400 000,00","1 400 000,00","15 100 000,00",2016-11-28,Conditional support,2016-11-01,2017-02-28
+129,PetroSA,"Provision of information and trading
+services for energy prices foreign
+exchange and money markets",Thomson Reuters,Sole source,"103 591,00","127 622,00","126 348,00",2016-12-13,Conditional support,2016-08-01,2017-07-31
+130,PetroSA,"Extension of a subscription contract
+for Platts system",S&P Global Platts,Sole supplier,"1 677 857,00","366 889,00","0,00",2016-12-15,Supported,2016-11-29,2017-11-27
+131,PetroSA,"Renewal of the CaseWare Software
+Licence and Maintenance","CQS Technology Holdings
+(Pty) Ltd",Sole supplier,"22 730,00","47 022,00","0,00",2016-12-19,Supported,2017-01-01,2017-12-01
+132,PetroSA,"Extension of Pira Energy Group’s
+license agreement contract",Pira Energy Group,Sole supplier,"263 000,00","65 750,00","0,00",2016-12-15,Supported,2016-12-01,2017-11-30
+133,PetroSA,"Provision of maintenance and
+support for a TotalChrom TCCS
+software","PerkinElmer South Africa (Pty)
+Ltd",Sole source,"72 693,00","576 082,00","1 230 941,00",2016-12-14,Conditionally Supported,2016-05-01,2019-04-30
+134,PetroSA,"Provision of limited licences of three
+microcomputer programmes",Chempute Software (Pty) Ltd,Sole source,"44 448,00","118 912,00","895 045,00",2016-12-08,Conditionally Supported,Not stated,Not stated
+135,PRASA,"Assist in concluding audit coverage
+plan for 2016/17 financial year","Sizwe Ntsaluba Gobodo and
+Sekela Gobodo Consortium","Expansion of project duration due to
+delays","39 878 808,00","5 500 000,00","0,00",Not dated,Supported,2016-08-26,2017-03-31
+136,PRASA,"Design and implementation of new
+digital radio signalling railway network
+system","Huawei Altech Alcom Matoma
+Consortium",ROE and CPI adjustments,485 079 188.80,"53 750 658,66","0,00",2016-12-08,Conditional support,2016-02-01,2016-11-30
+137,Productivity SA,Extension of lease agreement,Vukile Property,Continuity of service,"9 818 874,45","18 857 077,00","0,00",2016-10-18,Supported,2017-01-01,
+138,Productivity SA,Extension of lease agreements,Anicol Properties,Continuity of service,"1 561 154,34","2 642 082,00","0,00",2016-10-18,Supported,2016-11-01,5 Years
+139,PSC,"National Anti-Corruption Hotline
+(NACH)",Boxfusion,Continuity of service,"0,00","1 490 000,00","0,00",2016-10-21,Conditional support,2016-10-24,2 years
+140,Pseta,Hygiene Services,Bidvest Steiner Hygiene,Continuity of service,"103 065,80","100 952,29","0,00",2016-11-07,Supported,2016-11-01,2018-03-31
+141,Pseta,Courier Services,Dawn Wings,Continuity of service,"59 621,04","120 000,00","0,00",2016-11-07,Supported,2016-11-01,2018-03-31
+142,Pseta,Security Services,Fidelity Security,Continuity of service,"145 373,27","156 299,70","0,00",2016-11-07,Supported,2016-11-01,2018-03-31
+143,Pseta,Business Insurance,Marsh,Continuity of service,"142 441,20","119 653,00","0,00",2016-11-07,Supported,2016-11-01,2018-03-31
+144,Pseta,Off-site records storage,Metrofile,Continuity of service,"92 643,43","89 315,84","0,00",2016-11-07,Supported,2016-11-01,2018-03-31
+145,Pseta,Office storage & backup tapes,Metrofile,Continuity of service,455.61/month,333.32/month,"0,00",2016-11-07,Supported,2016-11-01,2018-03-31
+146,Pseta,Printing Machines Lease,Nashua Tshwane,Continuity of service,7139.48/month,6262.70/month,"0,00",2016-11-07,Supported,2016-11-01,2018-03-31
+147,Pseta,4G cards,Vodacom,Continuity of service,"9 940,01","70 414,00","0,00",2016-11-07,Supported,2016-11-01,2018-03-31
+148,Pseta,Internet Solutions,Vox,Continuity of service,"296 605,04","289 138,04","0,00",2016-11-07,Supported,2016-11-01,2018-03-31
+149,Pseta,Online branding,Active Brand,Continuity of service,"108 436,80","98 558,15","0,00",2016-11-07,Supported,2016-11-01,2018-03-31
+Number,Department/ Entity,Project Description,Supplier,Reason for extension,"Original Contract
+Value","Value of Contract
+Extension","Value of previous
+extensions","Award/
+Recommended date
+by AO/AA","not Supported/not
+Supported",Contract Start Date,Contract End Date
+150,Public Works,"Maintenance and servicing of the
+Makhaleng Telle Bridge and
+Sepapushek ports of entry","Superway Construction (Pty)
+Ltd",Delays in the procurement process.,15 200 000.00,6 843 201.42,13 000 594.71,2016-09-14,Supported,2016-09-30,2017-04-04
+151,Public Works,"Adaption and complete upgrade of
+phase 2:WCS 044954 for the
+Standerton Correctional Centre",Clear Choice Builders,Allows for the continuity of service,311 913 544.00,9 538 858.65,Not stated,2016-09-20,Supported,2016-12-19,2017-05-18
+152,Public Works,"Maintenance, repairs, civil
+mechanical and electrical
+infrastructure and installations for
+Ficksburg Bridge and Caledonspoort
+portof entry","Mercy Civil and Building
+Contractors","The competitive bidding process is
+in progress",8 368 393.44,1 317 684.38,11 201 879.84,2016-10-14,Supported,2016-10-22,2017-01-21
+153,Public Works,"Maintenance and servicing of
+building, civil mechanica, electrical
+infrastructure and installations at
+Maseru Port of Entry","Caledon river properties ccT/A
+Magwa Construction","The procurement process was not
+finalised.",15 612 816.42,786 542.00,8 955 698.78,2016-10-21,Supported,Not stated,Not stated
+154,Public Works,"Maintenance and Servicing of the
+Pontdrift Plant Jan and Zanzibar land
+Port of entry",Multi-Net Systems,Allows for the continuity of service,"12 201 599,22",4 211 960.90,4 211 960.90,2016-11-09,Supported,2016-11-18,2017-01-31
+155,Public Works,"Maintenance and Servicing of
+buildings, civil mechanical electrical
+infrastructure and installation at the
+Sani Pass & Qachasnek Port of entry",Ruwacon (Pty) Ltd,"The procurement process (supplier
+vetting) has not been concluded.",7 066 717.95,714 592.94,9 735 354.88.,2016-11-16,Supported,2016-11-19,2016-12-31
+156,Public Works,"Repairs service and maintenance to
+industrial air conditioning plant and
+associated equipment","Stainless Concepts
+Engineering","The procurement process (supplier
+vetting) has not been concluded.",19 600 000.00,1 900 000.00,30 338 322.00,2016-11-02,Supported,2016-12-01,2017-02-28
+157,Public Works,"Repairs service and maintenance to
+water pumps and associated
+equipment",Roy’s Oil and Gas,"The procurement process (supplier
+vetting) has not been concluded.",10 500 000.00,1 800 000.00,12 660 461.00,2016-11-02,Supported,2016-12-01,2017-02-28
+158,Public Works,"Repairs, service and maintenance to
+hangar doors roller shutter blast and
+automatic doors",Roy’s Oil and Gas,"The procurement process (supplier
+vetting) has not been concluded.",10 500 000.00,1 700 000.00,7 002 776.00,2016-11-02,Supported,2016-12-01,2017-02-28
+159,Public Works,"Repairs service and maintenance to
+electric diesel and steam boilers",Roy’s Oil and Gas,"The procurement process (supplier
+vetting) has not been concluded.",10 500 000.00,750 000.00,2 442 117.00,2016-11-02,Supported,2016-12-01,2017-02-28
+160,Public Works,Leasing Framework,Core Focus,"The project on leasing framework is
+not complete",1 672 000.,950.00 per hour.,Not stated,2016-12-13,Supported,Not stated,Not stated
+161,Public Works,"To conclude the outstanding training
+for which he was contracted and for
+learners to receive their competence
+certificate for a period of 6 months",Sphola Consulting (Pty) Ltd,Allows for the continuity of service,"2 327 313,74","1 074 221,16","0,00",2016-11-10,Supported,2017-01-01,2017-06-30
+162,RAF,Security services,Various service providers,"Competitive bidding process in
+progress","353 318 617,00","0,00","557 487 954,00",Not dated,Supported,Not stated,Not stated
+163,RAF,Various cleaning services,"Neledzi Cleaning Services
+(Pty) Ltd,","Competitive bidding process in
+progress",363 852.65,"382 255,15","0,00",2016-09-09,Supported,2016-11-01,2017-03-31
+164,RAF,Various cleaning services,"Neledzi Cleaning Services
+(Pty) Ltd","Competitive bidding process in
+progress",399 948.25,"464 506,90","0,00",2016-09-09,Supported,2016-11-01,2017-03-31
+165,RAF,Various cleaning services,Supercare Services,"Competitive bidding process in
+progress",495 033.60,429 018.75,"0,00",2016-09-09,Supported,2016-11-01,2017-03-31
+166,RAF,Various cleaning services,Servest Cleaning,"Competitive bidding process in
+progress",103 388.10,"104 835,53","0,00",2016-09-09,Supported,2016-11-01,2017-03-31
+167,RAF,Corporate Panel of Attorneys,Various Atterneys,"Competitive bidding process in
+progress","0,00","3 000 000,00","0,00",Not provided,Supported,2016-11-01,2017-04-30
+168,RAF,"Provide Manager Ready
+Assessments",Deloitte Consulting,"Competitive bidding process in
+progress","608 760,00","1 500 000,00","0,00",2016-10-18,Supported,2017-01-08,2017-07-30
+169,RAF,Provision of legal services,Macrobert Attorneys,Continuity of service,38 222.81,200 000.00,"0,00",2016-11-21,Conditional support,2016-11-11,2017-04-10
+170,Road Accident Fund,National security contracts,"Imvula Quality Protection;
+Venus Security and
+Securitas",Delay in the finalisation of the tender,"280 296,64","Imvula Quality
+Protection = 4 154
+037.68; Venus
+Security = 475
+318.25 and
+Securitas = 315
+383.90",None,2016-11-07,Conditional support,6 months,Not stated
+171,SANBI,"To design and upgrade the entrance
+facility at the Lowveld National
+Botanical Gardens Nelspruit",T.J Architecht,"additional expenses related to the
+unplanned site visists",169 736.88,141 840.53,Not stated,2016-09-29,Supported,Not stated,Not stated
+Number,Department/ Entity,Project Description,Supplier,Reason for extension,"Original Contract
+Value","Value of Contract
+Extension","Value of previous
+extensions","Award/
+Recommended date
+by AO/AA","not Supported/not
+Supported",Contract Start Date,Contract End Date
+172,SANBI,"Feasibility studies for the design and
+construction of a new administration
+building in the Kirstenbosch National
+Botanical Gardens","Vernon Mathews and
+Associates",Change in the scope of work,937 764.00,8 848 267.96,Not stated,2016-10-01,Not Supported,Not stated,Not stated
+173,SANBI,"Unclocking of the biodiversity benefits
+through development finance in
+critical catchments",Pegasys Pty Ltd,"To allow for the contunuity of the
+services",444 600.00,150 000.00,Not stated,2016-11-02,Supported,Not stated,Not stated
+174,SANParks,"To review the Tourism Systems
+Strategy",PWC,Scope change,499 550.28,111 412.00,Not stated,2016-11-04,Supported,Not stated,Not stated
+175,SANParks,Office Lease,Cozirex (Pty) Ltd,continuity of service,370 044.00,800 000.00,Not stated,2016-11-22,Supported,2016-12-01,2018-11-30
+176,SANRAL,"Additional expenditure for the repair
+and reseal of National road R34
+sections 2 and 3",Royal Haskoning DHV (Pty) Ltd,Additional scope,28 180 399.39,11 013 273.23,"0,00",2016-12-07,Conditional support,2017-01-01,2018-12-31
+177,SANRAL,"Construction Engineering for upgrade
+of N2",Ingerop,Change in the road design,"0,00",31 801 361.34,"0,00",2016-12-01,Conditional support,Not stated,Not stated
+178,SANRAL,"Rehabilitation of National Route from
+Ladysmith South to Nkunzi River",Worley Parsons,"Additional supervision costs due to
+splitting of contract","0,00","0,00","0,00",2016-11-07,Conditional support,Not stated,Not stated
+179,SANRAL,"Procurement of National Intelligent
+Transport System and Integrated
+Supporting System Software (Various
+Provinces)","Teti Construction & Kimley-Hon
+and Associates",Cost saving and benefit to the public,897 638 327.88,559 249 924.26,"0,00",2016-11-14,Supported,2016-12-01,2019-11-30
+180,SANRAL,"Consulting Engineering Services for
+Design and Construction Monitoring
+of the Rehabilitation National Route 1
+Section 12 between Trompsburg and
+Fonteinjie","Mott Mac Donald PDNA (Pty)
+Ltd",Expansion of project duration,18 413 086.20,35 601 510.30,26 863 671.96,2016-11-07,Supported,2016-11-29,2017-06-29
+181,SAPO,"Supply of MPLS VPN services
+Symantec Cloud IS fibre connection ,
+Telkom Diginet connectivity and
+Enterprise internet accessVoIP
+services",Internet Solutions,"To allow for the contunuity of the
+services",Not stated,"3 727 291,39","0,00",2016-07-14,Not Supported,2016-04-01,2017-03-31
+182,SAPO,Internet and Web access,Internet Solution,"To allow for the contunuity of the
+services",,"12 740 966,02",Not stated,2016-12-12,Supported,Not stated,Not stated
+183,SAPO,International Financial Systems,Universal Postal Union,"To allow for the contunuity of the
+services","5000,00","650 050,45",Not stated,2016-12-12,Supported,2017-01-01,2017/31/12
+184,SAPO,"Passport Advantage software annual
+licencing",IBM,"To allow for the contunuity of the
+services","6 202 000,00",21 171 837.33,Not stated,2016-12-12,Supported,2017-01-01,2017-06-30
+185,SAPO,Call centre Licences,Elingo,"To allow for the contunuity of the
+services",Not stated,"13 797 175,32",Not stated,2016-12-08,Supported,2017-03-01,2020-02-28
+186,SAPO,"Oracle Database and the Sun Micro
+licences",Oracle,"To allow for the contunuity of the
+services",Not stated,"66 102 114,88",Not stated,2016-12-12,Supported,2017-03-01,2020-02-28
+187,SAPO,Disaster recovery hosting services,Telkom SA,"To allow for the contunuity of the
+services",Not stated,"40 000 000,00",Not stated,2016-12-08,Supported,2017-03-01,2020-02-28
+188,SAPO,"IBM contract for the SAPO 6X Core
+activation on 2X Unix hosts for a
+period of 3 years",IBM,"To allow for the contunuity of the
+services",Not stated,"3 869 400,00",Not stated,2016-12-12,Supported,2017-03-01,2020-02-28
+189,SAPO,Support on the Escher software,Escher Group,"To allow for the contunuity of the
+services",Not stated,"9 036 998,20",Not stated,2016/21/11,Supported,2017-03-01,2020-02-28
+190,SAPO,Support on the Escher software,Escher Group,"To allow for the contunuity of the
+services",Not stated,"46 548 585,72",Not stated,2016-08-12,Supported,2017-03-01,2020-02-28
+191,SAPO,IT Mobile application Project,Fuse IT,"To allow for the contunuity of the
+services",Not stated,"355 200,00",Not stated,2016-08-12,Supported,2017-03-01,2020-02-28
+192,SAPO,"Third party and voucher management
+system",Fuse IT,"To allow for the contunuity of the
+services",Not stated,"3 046 130,30",Not stated,2016-12-12,Supported,2017-03-01,2020-02-28
+193,SAPO,"Postilion financial switch used by
+Postbank and retail divisions to
+service its branch, ATM, POS, Traffic
+fines and money order channels",ACI Global Ltd,"To allow for the contunuity of the
+services",Not stated,"15 044 818,00",Not stated,Not stated,Supported,2016-01-04,2021/31/03
+194,SAPO,"Maintenace and support of the
+Embrace and Universe software for 3
+years","Associated Computer Solutions
+(ACS)","To allow for the contunuity of the
+services",Not stated,"2 036 336,89","1 661 971,70",2016/21/11,Supported,2017-03-01,2020-02-28
+195,SAPO,"To move the equipment from the
+ChurchStreet data centre to Telkom
+data centre in Centurion","EMC, HP, IBM and CISCO","To allow for the contunuity of the
+services","7 260 000,00","222 891,50",Not stated,2016-01-12,Supported,2017-03-01,2020-02-28
+196,SAPO,Data and voice services,Telkom SA,"To allow for the contunuity of the
+services","551 800 000,00","296 191 920,00",Not stated,2016/21/11,Supported,2017-03-01,2020-02-28
+Number,Department/ Entity,Project Description,Supplier,Reason for extension,"Original Contract
+Value","Value of Contract
+Extension","Value of previous
+extensions","Award/
+Recommended date
+by AO/AA","not Supported/not
+Supported",Contract Start Date,Contract End Date
+197,SARS,Extension of lease agreements,"Richards Bay: Lockaway
+Investments","Premises still meet SARS operating
+standards",1680.0058.5,"10 094 048,43",Not stated,2016-08-05,Supported,2016-12-01,2019-11-30
+198,SARS,"Extension of maintenance service of
+Lectora licenses",Bytes People Solutions,Continuity of service,"245 100,00","33 060,00",Not stated,2016-10-11,Supported,2016-10-17,2017-09-18
+199,SARS,TeamMate software renewal,"Wolters Kluwer Tax &
+Accounting Southren Africa",Continuity of service,"458 732,39","314 412,52","839 607,29",2016-10-20,Supported,2016-11-01,2016-11-30
+200,SARS,Special Projects,Various service providers,Continuity of service,"146 883 000,00","1 565 353 999,00","529 226 000,00",2016-10-31,Conditional support,2017-01-01,2019-12-31
+201,SARS,Extension of lease,Randburg- Delta Property,Continuity of service,"22 534 991,04","78 663 995,17","0,00",2016-12-13,Not Supported,2017-03-01,2022-02-28
+202,SARS,Extension of lease,"Stellenbosch - Valeria
+Beleggings",Continuity of service,"3 611 556,11","2 008 746,22","0,00",2016-12-13,Not Supported,2016-12-01,2019-11-30
+203,SARS,Extension of lease,Klerksdorp- Sodema,Continuity of service,"26 493 327,07","14 660 607,98","0,00",2016-12-13,Not Supported,2017-01-01,2019-12-30
+204,SARS,Debt collection services,CSS Credit Solutions,Continuity of service,"38 896 000,00","31 335 412,09","0,00",2016-11-11,Conditional support,2016-12-01,2017-05-31
+205,SARS,Debt collection services,NDS Credit Solutions,Continuity of service,"38 896 000,00","31 848 350,02","0,00",2016-11-11,Conditional support,2016-12-01,2017-05-31
+206,SASSA,Parking space,Broll Property Group (Pty) Ltd,"Alignment of parking space contract
+with Head Office lease contract",420 444.60,1 115 244.86,1 291 620.60,2016-10-31,Supported,2016-11-01,2018-03-31
+207,SASSA,Cleaning and Hygiene Services,Masana Hygiene Services,"Competitive bidding process in
+progress",16 347 893.82,513 761.61,1 541 284.83,2016-10-31,Supported,Not stated,Not stated
+208,SASSA,"ICT Operations, Support,
+Maintenance and Service Desk",EOH Mthombo (Pty) Ltd,Continuity of service,87 934 360.91,43 967 180.45,"0,00",2016-11-17,Supported,2017-04-01,2018-03-31
+209,SASSA,Cleaning services,Lucob Cleaning Services,Delay in the finalisation of the tender,"3 143 205,00","0,00","0,00",2016-10-31,Supported,Not stated,Not stated
+210,Science and Technology,"Production and delivery of an
+induction DVD and CD-Rom Package
+for the department`s newly appointed
+employees",Markon Digital (Pty) Ltd,Expansion of scope,124 881.30,46 272.60,"0,00",2016-10-14,Conditional support,Once-off,Once-off
+211,SEDA,"To host and manage the Public
+sector SMME Payment Assistance
+Hotline Facility","EOH Advisory Services (Pty)
+Ltd","To allow National Treasury to
+normalize all the call centre
+operations.",6 202 364.00,702 880.00,878 600.00,2016-11-04,Supported,2016-12-01,2016-03-31
+212,SITA,Additional Vantage Software Licenses,"Mediro Belay Managed
+Services",Continuity of service,"3 108 596,50","874 053,50","0,00",2016-10-21,Supported,2016-11-01,3 Years
+213,SITA,Symantec software Licences,SymantecSA,Continuity of service,"206 400 000,00","42 710 975,00","0,00",2016-11-10,Supported,2016-12-01,2017-11-30
+214,SITA,SAPS Switching Centre infrastructure,Infrasol (Pty) Ltd,Continuity of service,"11 243 613,66","25 992 000,00","5 963 880,37",2016-11-23,Conditional support,2016-12-01,2017-11-30
+215,SITA,Microfilm & Archiving services,SymantecSA,"Competitive bid process not
+succesful","9 970 274,97","4 141 236,00","8 899 805,64",2016-11-10,Conditional support,2016-12-01,2017-11-30
+216,SITA,Extension of lease agreement,Mowana Properties,"Non-responsive competitive bid
+process","2 581 435,95","591 406,29","913 994,00",2016-12-08,Conditional support,2017-01-01,2017-09-30
+217,SITA,Extension of lease agreement,Touchbase Properties,"Non-responsive competitive bid
+process","1 097 887,98","218 599,56","715 753,12",2016-12-08,Conditional support,2017-01-01,2017-09-30
+218,SITA,"Extension of the in-house travel
+Management",Duma Travel,Continuity of service,"1 437 876,30","1 079 324,94","354 288,31",2016-12-13,Supported,2017-01-01,2017-06-30
+219,STATSSA,Evaluation of the trade statistics,Jacob Ryten,Continuity of service,"2 333 455,00","2 050 563,00","0,00",2016-10-07,Supported,Once off,Once off
+220,TCTA,"Provide re-baseline design and
+construction supervision services for
+Phase 2B of Olifants River Water
+Resources Development Project
+(ORWRDP 2)","Aurecon Ndodana Joint
+Venture",Expansion of scope,"379 000 000,00","309 000 000,00","160 000 000,00",2016-11-16,Conditional support,2009-09-01,2021-07-30
+221,TCTA,"Construction of Phase 2C Pipeline
+from De Hoop Dam to Steelpoort of
+Olifants River Water Resources
+Development Project (ORWRDP 2)",Basil Read,Expansion of scope,"1 165 000 000,00","93 100 000,00","308 900 000,00",2016-11-16,Conditional support,2012-03-28,2017-08-27
+222,TCTA,"Provision of disaster recovery
+services",Continuity SA,"Allow time to finalise bidding
+process","583 903,00","1 204 592,00","713 903,00",2016-12-03,Conditional support,2013-10-01,2017-09-30
+223,"Technology Innovation
+Agency","Leadership Development Training
+Session",Thinking Fusion Africa (Pty) Ltd,Expansion of scope,"495 558,00","123 120,00","0,00",2016-11-09,Conditional support,Once Off Service,Once Off Service
+224,Transnet,"Validation of completed engineering
+and design for the construction of
+terminals on NMPP project",Kentz (Pty) Ltd,"Expansion of project duration due to
+industrial action","10 855 848,00","60 000 000,00","719 948 431,13",2016-11-11,Conditional support,13 Months,Not stated
+225,Transnet,"Provision of IT Advisory, Research
+Services: Best Practice",Gartner Ireland (Pty) Ltd,"Competitive bidding process in
+progress","2 375 460,00","8 732 799,00","10 685 697,00",2016-12-15,Conditional support,2017-01-01,2017-12-31
+226,Transnet,Provision of professional services,PWC,Continuity of service,"18 022 046,00","14 735 654,00","32 434 448,00",2016-12-14,Conditional support,2017-01-04,2019-01-03
+227,Transnet,"Master Information Technology
+Outsourcing",T-Systems SA (Pty) Ltd,"Competitive bidding process in
+progress","1 986 552 619,00","637 705 237,00","3 664 022,00",2016-12-06,Conditional support,Not stated,9 months
+228,Transnet,"Maintenance and support of SAP
+Server",IBM South Africa (Pty) Ltd,Continuity of service,41 214 373.46,10 950 304.63,15 390 000.00,2016-11-29,Supported,2016-12-01,2017-11-30
+229,UIF,Siyaya Systems,Vindhya Professional Services,Continuity of service,"6 390 343,20","4 000 000,00","10 475 061,90",2016-10-19,Supported,2016-09-01,2017-08-31
+Number,Department/ Entity,Project Description,Supplier,Reason for extension,"Original Contract
+Value","Value of Contract
+Extension","Value of previous
+extensions","Award/
+Recommended date
+by AO/AA","not Supported/not
+Supported",Contract Start Date,Contract End Date
+230,W& R SETA,"Enterprise Resource Planning
+System",Deloitte Consulting (Pty) Ltd,"To allow for the contunuity of the
+services","11 918 454,60","8 800 000,00","0,00",2016-10-28,Supported,20 months,20 months
