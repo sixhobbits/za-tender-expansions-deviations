@@ -46,7 +46,7 @@ def standardize_filename(link_text):
     return filename
 
 def main():
-    url = 'http://ocpo.treasury.gov.za/Suppliers_Area/Pages/Deviations-and-Exspansions.aspx'
+    url = 'http://ocpo.treasury.gov.za/Suppliers_Area/Deviations%20and%20Exspansions/default.aspx'
     dest_dir = './pdfs'
     os.makedirs(dest_dir, exist_ok=True)
 
