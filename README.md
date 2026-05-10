@@ -61,6 +61,20 @@ The data can be explored using datasette by running
 
 * The `parse_pdfs.py` script extracts CSVs, using pdfplumber, but these are still very messy with incorrect headings, lack of standarization etc. This script needs to be updated to produce better and more standard CSVs.
 
+## Eskom diesel tender cross-reference
+
+See [NOTES.md](NOTES.md) for a cross-reference with the [amaBhungane investigation into Eskom's R21-billion diesel contract](https://amabhungane.org/inside-eskoms-dodgy-r21-billion-diesel-contract/).
+
+Key finding: the emergency Astron procurement for Ankerlig (R208.6m, Jan 2025) and the Itsamaya forensic investigation both appear in the deviations data.
+
+## New data added
+
+- Q3 2024-25 deviations & expansions
+- Q4 2024-25 deviations & expansions  
+- Q1 2025-26 deviations & expansions
+
+The Treasury page structure changed; the scrape script has been updated to point to the new subfolder URL.
+
 
 ## Slack conversation
 
